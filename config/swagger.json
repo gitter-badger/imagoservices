@@ -1,0 +1,1138 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "v1",
+        "title": "Imago Management Api",
+        "description": "A REST Api to access digital twins."
+    },
+    "schemes": [
+        "http",
+        "https"
+    ],
+    "basePath": "/",
+    "paths": {
+        "/twins/{latitude}/{longitude}/{radius}": {
+            "get": {
+                "tags": [
+                    "Digital Twins"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    }
+                ],
+                "operationId": "twins_get",
+                "consumes": [
+                    "application/json",
+                    "text/json"
+                ],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {}
+                },
+                "deprecated": false
+            }
+        },
+        "/measurement/altituderange/{latitude}/{longitude}/{radius}": {
+            "get": {
+                "description": "Fetches measurements for the given location and altitude range",
+                "tags": [
+                    "Measurement"
+                ],
+                "operationId": "measurement_getAltitudeRangeByPosition",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/measurement/{latitude}/{longitude}/{radius}/{minalt}/{maxalt}": {
+            "get": {
+                "description": "Fetches measurements for the given location and altitude range within the given radius",
+                "tags": [
+                    "Measurement"
+                ],
+                "operationId": "measurement_getByPositionAndAltitude",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "minalt",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "maxalt",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            },
+            "post": {
+                "tags": [
+                    "Measurement"
+                ],
+                "description": "Generates a set of random measurement entries for the given location and altitude range within the given radius",
+                "operationId": "measurement_generateForPositionAndAltitude",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "minalt",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "maxalt",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "ACCEPTED",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/measurement/{latitude}/{longitude}/{radius}/{minalt}/{maxalt}/{groupid}": {
+            "get": {
+                "description": "Fetches measurements for the given groupid at the location and altitude range",
+                "tags": [
+                    "Measurement"
+                ],
+                "operationId": "measurement_getByPositionAndAltitudeAndGroupId",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "minalt",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "maxalt",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "groupid",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            },
+            "post": {
+                "tags": [
+                    "Measurement"
+                ],
+                "description": "Generates random measurements for the given groupid at the location and altitude range",
+                "operationId": "measurement_generateForPositionAndAltitudeAndGroupid",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "minalt",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "maxalt",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    {
+                        "name": "groupid",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "ACCEPTED",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/measurement": {
+            "get": {
+                "tags": [
+                    "Measurement"
+                ],
+                "operationId": "FetchMeasurements",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            },
+            "delete": {
+                "tags": [
+                    "Measurement"
+                ],
+                "description": "Deletes all measurements in the DBe",
+                "operationId": "DeleteAllMeasurements",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "ACCEPTED"
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/servicebus": {
+            "get": {
+                "description": "Just a quick check for the ServiceBus",
+                "tags": [
+                    "Servicebus"
+                ],
+                "operationId": "ServiceBusCheck",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/zonealert": {
+            "get": {
+                "description": "Fetches zonealerts from the DB",
+                "tags": [
+                    "Zonealert"
+                ],
+                "operationId": "zonealerts_get",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Zonealert"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/command/{deviceId}": {
+            "post": {
+                "description": "Sends a quick command to the given device (MOVE TO UAV/{DEVICEID}/COMMAND",
+                "tags": [
+                    "Command"
+                ],
+                "parameters": [
+                    {
+                        "name": "deviceId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "type": "object",
+                        "format": "body"
+                    }
+                ],
+                "operationId": "command_putCommand",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/mission/{missionId}": {
+            "delete": {
+                "description": "Deletes the mission with the given id",
+                "tags": [
+                    "Mission"
+                ],
+                "parameters": [
+                    {
+                        "name": "missionId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "operationId": "mission_delete",
+                "consumes": [],
+                "produces": [],
+                "responses": {
+                    "204": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            },
+            "put": {
+                "description": "Updates the mission with the given id",
+                "tags": [
+                    "Mission"
+                ],
+                "parameters": [
+                    {
+                        "name": "missionId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "type": "object",
+                        "format": "body"
+                    }
+                ],
+                "operationId": "mission_update",
+                "consumes": [],
+                "produces": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/mission": {
+            "get": {
+                "description": "Get all planned missions from the DB",
+                "tags": [
+                    "Mission"
+                ],
+                "parameters": [],
+                "operationId": "mission_getMissions",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            },
+            "post": {
+                "description": "Save a mission to the DB",
+                "tags": [
+                    "Mission"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "type": "object",
+                        "format": "body"
+                    }
+                ],
+                "operationId": "mission_postMission",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/commandstatus/{commandstatusId}": {
+            "delete": {
+                "description": "Deletes the command status item with the given id",
+                "tags": [
+                    "Commandstatus"
+                ],
+                "parameters": [
+                    {
+                        "name": "commandstatusId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "operationId": "zone_deleteCommandstatus",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "204": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            },
+            "get": {
+                "description": "Fetches the command status item with the given id",
+                "tags": [
+                    "Commandstatus"
+                ],
+                "parameters": [
+                    {
+                        "name": "commandstatusId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "operationId": "commandstatus_getById",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "item": {
+                                "$ref": "#/definitions/Commandstatus"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/commandstatus/{latitude}/{longitude}/{radius}": {
+            "get": {
+                "description": "Fetches all command statusses  for the given location and radius",
+                "tags": [
+                    "Commandstatus"
+                ],
+                "operationId": "commandstatus_getByPosition",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Commandstatus"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/device": {
+            "get": {
+                "description": "Fetches all devices from the IoTHub registry",
+                "tags": [
+                    "Device"
+                ],
+                "operationId": "device_get",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Device"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/device/{deviceId}": {
+            "put": {
+                "description": "Registers a new device on the IoTHub Device registry",
+                "tags": [
+                    "Device"
+                ],
+                "parameters": [
+                    {
+                        "name": "deviceId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "operationId": "device_registerDevice",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "item": {
+                                "$ref": "#/definitions/Device"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            },
+            "get": {
+                "description": "Fetches the device with the given id from the IoTHub registry",
+                "tags": [
+                    "Device"
+                ],
+                "parameters": [
+                    {
+                        "name": "deviceId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "operationId": "device_getDeviceById",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "item": {
+                                "$ref": "#/definitions/Device"
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "NOT FOUND"
+                    }
+                },
+                "deprecated": false
+            },
+            "delete": {
+                "description": "Deletes the device with the given id from the IoTHub registry",
+                "tags": [
+                    "Device"
+                ],
+                "parameters": [
+                    {
+                        "name": "deviceId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "operationId": "device_deleteDevice",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "204": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/zone/{latitude}/{longitude}/{radius}": {
+            "get": {
+                "description": "Fetches all no flight zones for the given location and radius",
+                "tags": [
+                    "Zone"
+                ],
+                "operationId": "zone_getByPosition",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Zone"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/zone": {
+            "description": "Fetches all zones",
+            "get": {
+                "tags": [
+                    "Zone"
+                ],
+                "operationId": "zone_get",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Zone"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            },
+            "post": {
+                "description": "Creates a new no-flight-zone entry",
+                "tags": [
+                    "Zone"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "type": "object",
+                        "format": "body"
+                    }
+                ],
+                "operationId": "zone_post",
+                "consumes": [
+                    "application/json",
+                    "text/json"
+                ],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "item": {
+                                "$ref": "#/definitions/Zone"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/zone/{zoneId}": {
+            "delete": {
+                "description": "Deletes the no-flight-zone with the given id",
+                "tags": [
+                    "Zone"
+                ],
+                "parameters": [
+                    {
+                        "name": "zoneId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "operationId": "zone_deleteZone",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "204": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            },
+            "get": {
+                "description": "Fetches the no-flight-zone with the given id",
+                "tags": [
+                    "Zone"
+                ],
+                "parameters": [
+                    {
+                        "name": "zoneId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "operationId": "zone_getById",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "item": {
+                                "$ref": "#/definitions/Zone"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/uav": {
+            "get": {
+                "description": "Fetches all uav entries",
+                "tags": [
+                    "Uav"
+                ],
+                "operationId": "uav_get",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "204": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/uav/{deviceId}/mission": {
+            "post": {
+                "description": "Sends a mission to the uav for immediate execution.",
+                "tags": [
+                    "Uav"
+                ],
+                "parameters": [
+                    {
+                        "name": "deviceId",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "type": "object",
+                        "format": "body"
+                    }
+                ],
+                "operationId": "mission_putMission",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "OK"
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/uav/{latitude}/{longitude}/{radius}": {
+            "get": {
+                "description": "Fetches all uavs within the given radius from the given location",
+                "tags": [
+                    "Uav"
+                ],
+                "operationId": "uav_getByPosition",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Uav"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        }
+    },
+    "definitions": {
+        "Mission": {
+            "type": "object",
+            "properties": {}
+        },
+        "Uav": {
+            "type": "object",
+            "properties": {}
+        },
+        "Device": {
+            "type": "object",
+            "properties": {}
+        },
+        "Zone": {
+            "type": "object",
+            "properties": {}
+        },
+        "Commandstatus": {
+            "type": "object",
+            "properties": {}
+        },
+        "Measurement": {
+            "type": "object",
+            "properties": {}
+        }
+    }
+}

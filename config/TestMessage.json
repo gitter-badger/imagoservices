@@ -1,0 +1,22 @@
+{
+    "deviceId": "MichaelUAV",
+    "ping": 59,
+    "download": 25,
+    "groupid": "WebAppGroup",
+    "upload": 22,
+    "location": {
+        "type": "Point",
+        "coordinates": [
+            8.630692722998067,
+            49.88792225391931
+        ]
+    },
+    "alt": 10,
+    "bytesPerSecRecv": 6046,
+    "bytesPerSecSent": 791947,
+    "errorsPerSecRecv": 22,
+    "errorsPerSecSent": 420,
+    "dropsPerSecRecv": 64,
+    "dropsPerSecSent": 335,
+    "id": "d3bb6a09-4e3e-45fa-88bd-4281ee7ca5ac"
+}
