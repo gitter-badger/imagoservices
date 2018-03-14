@@ -1,0 +1,4 @@
+{
+  "timeOfRecord" : "1521040818", //either unix timestamp or human readable
+  "{key}" : "{value}"
+}

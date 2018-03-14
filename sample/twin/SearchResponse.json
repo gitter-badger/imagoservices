@@ -1,0 +1,15 @@
+{
+  "twins" : [
+    "{idOfTwin}",
+    "8597737e-a262-4f6d-977a-c7cb39709e69",
+    "3afa0e41-824b-4645-816d-0de5113c02e9",
+    "b308c4b5-87b7-43a9-87fc-7c7a77080e5e",
+    "3ef13672-b66e-4049-9d29-3332ff50af43"
+  ],
+
+  "features": [
+    "humidity",
+    "temperature",
+    "cropType"
+  ]
+}

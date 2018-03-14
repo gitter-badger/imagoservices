@@ -1,0 +1,13 @@
+// /twin/search/location/{longitude}/{latitude}/{radius}
+{
+  "features": [
+    "humidity",
+    "temperature",
+    "cropType"
+  ],
+
+  "filter": {
+    "{featureName}" : "{valueMin}:{valueMax}",
+    "temperature" : "25:35"
+  }
+}

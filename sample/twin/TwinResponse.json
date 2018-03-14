@@ -1,0 +1,22 @@
+// /twin/{twinId}
+{
+
+  "twinId" : "8597737e-a262-4f6d-977a-c7cb39709e69",
+  "name" : "Pete's Strawberry farm",
+  "description" : "",
+  "longitude" : 23.5,
+  "latitude" : 26.5,
+  "category" : "AREA",
+  "country" : "Germany",
+  "state" : "Hesse",
+
+  "availableSensorFields" : [
+    "rainfallProbability",
+    "temperature",
+    "cropType",
+    "humidity",
+    "population",
+    "populationGrowthRate",
+    "averageIncome"
+  ]
+}
