@@ -9,8 +9,8 @@ const log = require('../lib/LogHelper').getLogger();
 
 
 module.exports = {
-    get: function twin_getAll(req, res, next) {
-        log.debug('This is the get twin call');
+
+    delete: function twin_delete(req, res, next) {
         let status = 200;
         db.queryMissionEntries().then(function (result) {
             res.json(result);

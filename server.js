@@ -7,11 +7,18 @@ let BodyParser = require('body-parser');
 let Swaggerize = require('swaggerize-express');
 let Path = require('path');
 let swaggerUi = require('swaggerize-ui'); // second change
-// let logger = require('morgan');
+let ServerLogger = require('morgan');
+let fs = require('fs')
+let path = require('path')
+
+let accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), {flags: 'a'})
 
 let App = Express();
 
 let Server = Http.createServer(App);
+
+// fire up the request logger with the tiny format
+App.use(ServerLogger('combined', {stream: accessLogStream}))
 
 App.use(BodyParser.json());
 App.use(BodyParser.urlencoded({

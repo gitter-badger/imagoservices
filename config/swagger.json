@@ -3,7 +3,7 @@
     "info": {
         "version": "v1",
         "title": "Imago Management Api",
-        "description": "A REST Api to access digital twins."
+        "description": "A REST Api to access digital twins. The future of the internet is finally here!"
     },
     "schemes": [
         "http",
@@ -11,10 +11,32 @@
     ],
     "basePath": "/",
     "paths": {
-        "/twin/{latitude}/{longitude}/{radius}": {
+        "/twin":{
             "get": {
                 "tags": [
-                    "Digital Twins"
+                    "Digital Twin"
+                ],
+                "description" :"Fetches all the digital twins in the database. Caution! This may take a while",
+                "parameters": [
+                ],
+                "operationId": "twins_getAll",
+                "consumes": [
+                ],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {}
+                },
+                "deprecated": false
+            }
+        },
+        "/twin/{latitude}/{longitude}/{radius}": {
+            "get": {
+                "description":"Fetches all twins within the given radius around the given lat/lon location",
+                "tags": [
+                    "Digital Twin"
                 ],
                 "parameters": [
                     {
@@ -52,13 +74,99 @@
                     "200": {}
                 },
                 "deprecated": false
+            },
+            "post": {
+                "tags": [
+                    "Digital Twin"
+                ],
+                "description": "Saves the digital twin given in the post body payload",
+                "operationId": "twin_create",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "type": "object",
+                        "format": "body"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/twin/{twin_id}":{
+            "put": {
+                "tags": [
+                    "Digital Twin"
+                ],
+                "description": "Updates the digital twin given in the post body payload",
+                "operationId": "twin_create",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "type": "object",
+                        "format": "body"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            },
+            "delete": {
+                "tags": [
+                    "Digital Twin"
+                ],
+                "description": "Deletes the digital twin with the given id",
+                "operationId": "twin_delete",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "ACCEPTED"
+                    }
+                },
+                "deprecated": false
             }
         },
         "/sensorreading/{twin_id}": {
             "get": {
-                "description": "Fetches senor readings associated to the given twin",
+                "description": "Fetches sensor data associated to the given twin",
                 "tags": [
-                    "SensorReading"
+                    "Sensor Reading"
                 ],
                 "operationId": "sensorreading_getdatapoints",
                 "consumes": [],

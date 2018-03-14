@@ -1,0 +1,21 @@
+{
+   "logging": {
+        "appenders": {
+            "file": {
+                "type": "file",
+                "filename": "log/log.log"
+            },
+            "console": {
+                "type": "console"
+            }
+        },
+        "categories": {
+            "default": {
+                "appenders": [
+                    "console"
+                ],
+                "level": "debug"
+            }
+        }
+    }
+}
