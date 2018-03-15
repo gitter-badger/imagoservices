@@ -13,10 +13,7 @@ module.exports = {
         let status = 200;
         // TODO: Do i need to validate or use defaults?
         db.queryTwinsInRange(req.params.latitude, req.params.longitude, req.params.radius).then(function (result) {
-            res.status(status).send({
-                count: result.length,
-                twins: result
-            });
+            res.status(status).send(result);
         }).catch(function (error) {
             // error
             res.status(500).send(error);
