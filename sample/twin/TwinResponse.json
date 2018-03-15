@@ -94,13 +94,15 @@
         {
           "twinId": "d3d811db-0895-4065-95a2-b6123d0a4470",
           "name": "cropType",
-          "type": "FIELD",
+          "type": "SENSOR",
           "semantic": [
             "crop"
           ],
           "data": [
             {
-              "cropType": "STRAWBERRY"
+              "cropType": "STRAWBERRY",
+              "cropsPerSquareMeter" : "27",
+              "waterDemandPerPlantAndDay" : "2.54"
             }
           ]
         },
@@ -114,7 +116,7 @@
           ],
           "data": [
             {
-              "value": "3.2"
+              "amountPerSquareMeterAndDay": "3.2"
             }
           ]
         },
