@@ -1,5 +1,5 @@
 [{
-  "id": "c51e76e1-81c0-4921-850c-d9421aeefd4a",
+  "id": "1f42fc35-4a59-4ead-ad36-afdbcbeac516",
   "name": "Farm 1",
   "type": "FARM",
   "semantics": ["farm", "agriculture", "crops"],
@@ -8,17 +8,17 @@
     "value": "one"
   }, {
     "key": "address",
-    "value": "Bachstrasse 40"
+    "value": "Gluckstrasse 18"
   }, {
     "key": "state",
     "value": "Hessen"
   }, {
     "key": "areaSize",
-    "value": "100007225"
+    "value": "100002554"
   }],
   "children": [{
-    "id": "0950b1c4-e1ec-44d4-b5b2-d4e5ec047c0f",
-    "name": "Feld 69",
+    "id": "eb1d7231-8c74-4907-a634-951d9e057b56",
+    "name": "Feld 53",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -35,31 +35,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2380"
+      "value": "3592"
     }, {
       "key": "waterBalance",
-      "value": "-0.9188947447216693"
+      "value": "-0.9243950482396254"
     }],
     "children": [{
-      "id": "9790b63c-b3b9-4daf-9add-194570d92652",
+      "id": "f3ec1849-b8bf-4d4a-972a-99744d42347f",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "5.45924240863388"
+        "value": "55.7710683983942"
       }]
     }, {
-      "id": "3e1f71d6-4566-4412-86a3-2c89c16c0aff",
+      "id": "aa23abf8-e759-4129-9353-8c24c786f274",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "2.595368168906581"
+        "value": "2.268148552811238"
       }]
     }, {
-      "id": "aa5df86e-c5d7-4da7-b007-9622fe7a059e",
+      "id": "03e42768-35a1-49d9-8731-68de9fdb2de9",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -68,18 +68,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "8"
+        "value": "10"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "4"
+        "value": "3"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["f3ec1849-b8bf-4d4a-972a-99744d42347f", "aa23abf8-e759-4129-9353-8c24c786f274", "03e42768-35a1-49d9-8731-68de9fdb2de9"]
   }, {
-    "id": "d9542dca-013c-409e-a639-989c85f1cf89",
-    "name": "Feld 77",
+    "id": "fb552474-811e-43bd-a835-e6d2eaf3bdee",
+    "name": "Feld 51",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -98,31 +99,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3431"
+      "value": "2704"
     }, {
       "key": "waterBalance",
-      "value": "-0.2648551327293374"
+      "value": "-0.5766139724523208"
     }],
     "children": [{
-      "id": "ba289f35-42c6-4830-964e-034fb799ad29",
+      "id": "083c8c51-de22-4387-8d27-a8f2dd06618b",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "84.53239273522412"
+        "value": "33.35134310049901"
       }]
     }, {
-      "id": "6b663405-4a17-4f4d-8a11-c15cdb5914aa",
+      "id": "cbcd9d7b-a4a8-4bcd-8d14-5fee9362495e",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "6.6163038054359635"
+        "value": "6.774176440762866"
       }]
     }, {
-      "id": "961a1d52-a33d-4e2b-b5d3-89dc1d0e6ce0",
+      "id": "a3dd39c2-80f4-46bc-9889-97e6bc642f12",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -131,18 +132,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "9"
+        "value": "4"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "1"
+        "value": "4"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["083c8c51-de22-4387-8d27-a8f2dd06618b", "cbcd9d7b-a4a8-4bcd-8d14-5fee9362495e", "a3dd39c2-80f4-46bc-9889-97e6bc642f12"]
   }, {
-    "id": "4b224187-270a-40cf-930e-f2f7f1557c19",
-    "name": "Feld 71",
+    "id": "c5b5ba0a-f015-4fff-b78c-cdb19957e9f4",
+    "name": "Feld 0",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -159,31 +161,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3449"
+      "value": "3010"
     }, {
       "key": "waterBalance",
-      "value": "-0.019500237815090457"
+      "value": "-0.9961651474405117"
     }],
     "children": [{
-      "id": "d99e0c97-049f-4f0e-885d-9b5f8466712b",
+      "id": "7c5f9153-9722-4bc3-b393-b671087e309d",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "70.08481552346666"
+        "value": "41.61477409068278"
       }]
     }, {
-      "id": "e0ea58db-1807-4890-ac76-f87244ed352a",
+      "id": "e44889bb-2b77-4124-924f-9501371cbdb6",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "6.863498335294366"
+        "value": "0.026843967916417633"
       }]
     }, {
-      "id": "d2f0c39b-fd76-42ab-acf6-0b9e7ef6c459",
+      "id": "ccbe21e8-e83e-448c-a258-93cb654b1534",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -200,10 +202,11 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["7c5f9153-9722-4bc3-b393-b671087e309d", "e44889bb-2b77-4124-924f-9501371cbdb6", "ccbe21e8-e83e-448c-a258-93cb654b1534"]
   }, {
-    "id": "c7482f13-1aa2-4e68-9a93-212febebd000",
-    "name": "Feld 22",
+    "id": "15f03b1f-a90f-48a6-8952-f6301b6879b5",
+    "name": "Feld 72",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -222,31 +225,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2042"
+      "value": "3111"
     }, {
       "key": "waterBalance",
-      "value": "-0.738981386702051"
+      "value": "-0.9021873399195413"
     }],
     "children": [{
-      "id": "1f57af24-868d-4be6-b4b0-82cfdbd5ac6f",
+      "id": "5c82ee4a-05de-4c66-9688-19511ba04225",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "96.59329782031587"
+        "value": "84.30509252550405"
       }]
     }, {
-      "id": "e8b16bc6-0806-4384-b958-f3fa12ac5690",
+      "id": "1ac194db-16fe-40de-bea6-ce42c0927b20",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "2.61018613297949"
+        "value": "0.6846886205632112"
       }]
     }, {
-      "id": "20ed04ed-89f5-4932-8522-0c9ea0c033a1",
+      "id": "2ce1ae5f-64df-49c2-987a-d1aef5c48b19",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -255,18 +258,20 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "5"
+        "value": "7"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "2"
+        "value": "1"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
-  }]
+    }],
+    "subTwins": ["5c82ee4a-05de-4c66-9688-19511ba04225", "1ac194db-16fe-40de-bea6-ce42c0927b20", "2ce1ae5f-64df-49c2-987a-d1aef5c48b19"]
+  }],
+  "subTwins": ["eb1d7231-8c74-4907-a634-951d9e057b56", "fb552474-811e-43bd-a835-e6d2eaf3bdee", "c5b5ba0a-f015-4fff-b78c-cdb19957e9f4", "15f03b1f-a90f-48a6-8952-f6301b6879b5"]
 }, {
-  "id": "8250ae81-4c5a-4577-9e89-3d6430401410",
+  "id": "66c25e7b-1d61-4448-8886-a7140248742c",
   "name": "Farm 2",
   "type": "FARM",
   "semantics": ["farm", "agriculture", "crops"],
@@ -275,17 +280,17 @@
     "value": "one"
   }, {
     "key": "address",
-    "value": "Mendelssohnstrasse 74"
+    "value": "Mendelssohnstrasse 89"
   }, {
     "key": "state",
     "value": "Hessen"
   }, {
     "key": "areaSize",
-    "value": "10000874"
+    "value": "100007693"
   }],
   "children": [{
-    "id": "d0e1cb6f-dbc9-459c-a672-a98924293ef0",
-    "name": "Feld 34",
+    "id": "0999ae26-75eb-4739-ace0-962c559d0770",
+    "name": "Feld 68",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -304,31 +309,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2209"
+      "value": "1085"
     }, {
       "key": "waterBalance",
-      "value": "-0.8411352483025042"
+      "value": "-0.7451847353742145"
     }],
     "children": [{
-      "id": "7677a44d-c3ba-44ac-9ed0-2763af6b0e84",
+      "id": "f624f005-6ccb-4bde-806f-36a1094b5142",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "14.861164475156652"
+        "value": "23.18990717952466"
       }]
     }, {
-      "id": "21ebbe1e-4194-45c7-8667-3c166370a173",
+      "id": "c3df7b6c-d26e-4b86-9858-169709ae0979",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "0.635459006789983"
+        "value": "5.3511205571414955"
       }]
     }, {
-      "id": "5be41b6c-6984-4718-8300-1712b6fba34d",
+      "id": "c83bd037-cf45-44aa-ab1a-3246dc034172",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -337,18 +342,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "2"
+        "value": "7"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "2"
+        "value": "3"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["f624f005-6ccb-4bde-806f-36a1094b5142", "c3df7b6c-d26e-4b86-9858-169709ae0979", "c83bd037-cf45-44aa-ab1a-3246dc034172"]
   }, {
-    "id": "43bd68ab-18db-42e4-9653-bae9489d4af3",
-    "name": "Feld 70",
+    "id": "35c54477-9a81-42ff-a9ad-c47e3a04ba54",
+    "name": "Feld 81",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -376,31 +382,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3292"
+      "value": "2481"
     }, {
       "key": "waterBalance",
-      "value": "-0.6500434462345169"
+      "value": "-0.32435513776602454"
     }],
     "children": [{
-      "id": "1c802f90-61b0-419c-9be3-6762977a8719",
+      "id": "e5674847-1c90-4e06-8d3c-69ade271d527",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "33.63990806324808"
+        "value": "51.43034738144977"
       }]
     }, {
-      "id": "1a7a564f-a01a-42ce-8779-6841886944bd",
+      "id": "10566390-9fdd-40ff-81eb-083fe646ae78",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "6.299217967778695"
+        "value": "6.080803760105779"
       }]
     }, {
-      "id": "44ca23a3-61a7-4091-8907-5c86970204c5",
+      "id": "7d6e93ff-0750-4f07-a632-fc0b0e5f83d8",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -409,18 +415,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "6"
+        "value": "9"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "3"
+        "value": "1"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["e5674847-1c90-4e06-8d3c-69ade271d527", "10566390-9fdd-40ff-81eb-083fe646ae78", "7d6e93ff-0750-4f07-a632-fc0b0e5f83d8"]
   }, {
-    "id": "acaeb5ea-757f-4862-bed3-5e8d8b133ad4",
-    "name": "Feld 83",
+    "id": "93434f4a-996f-4b37-97a5-ae8f41e9a8d6",
+    "name": "Feld 72",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -439,31 +446,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3553"
+      "value": "1897"
     }, {
       "key": "waterBalance",
-      "value": "-0.935426644414106"
+      "value": "-0.05155672138833745"
     }],
     "children": [{
-      "id": "c94a050d-31d2-49ad-88cb-62f4ed08e89c",
+      "id": "e0840417-31e7-4b60-83fa-b83bb962777d",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "59.85162488551005"
+        "value": "82.29203788974637"
       }]
     }, {
-      "id": "ab4b6caa-8bc7-4890-8f60-cf739be8d759",
+      "id": "c2f63a9c-b174-4d91-87c2-eb6a61418ec8",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "1.5497605340614586"
+        "value": "5.690659671669976"
       }]
     }, {
-      "id": "dfbadaf4-7d38-4538-8ac7-a9d44570170a",
+      "id": "9dc769bc-da68-4997-a9cd-a722983c45bb",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -472,18 +479,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "8"
+        "value": "3"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "3"
+        "value": "2"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["e0840417-31e7-4b60-83fa-b83bb962777d", "c2f63a9c-b174-4d91-87c2-eb6a61418ec8", "9dc769bc-da68-4997-a9cd-a722983c45bb"]
   }, {
-    "id": "b918c215-574e-4eac-82f6-44b39cd01cb7",
-    "name": "Feld 84",
+    "id": "11217986-d89c-4af2-8993-72d3d7208b26",
+    "name": "Feld 75",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -504,31 +512,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3732"
+      "value": "1781"
     }, {
       "key": "waterBalance",
-      "value": "-0.7298863477519225"
+      "value": "-0.29812847809470516"
     }],
     "children": [{
-      "id": "6433cd99-8ff9-497e-9385-10f54b56cfd8",
+      "id": "47537137-7a46-4ad5-85fc-11f3f98c7af2",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "44.854519162690124"
+        "value": "51.75406100206844"
       }]
     }, {
-      "id": "dc5e0e3c-4ee2-400d-8f65-eaa67ff33e48",
+      "id": "9f14f57d-7c41-40f5-857b-99fe2122a6af",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "3.2413638269769303"
+        "value": "2.807486087621179"
       }]
     }, {
-      "id": "7ccc720e-762b-4c0b-9647-a1a76b4426cc",
+      "id": "34dbecd4-0c51-4ce4-bb41-ffc5475a7a9c",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -537,18 +545,20 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "6"
+        "value": "4"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "2"
+        "value": "1"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
-  }]
+    }],
+    "subTwins": ["47537137-7a46-4ad5-85fc-11f3f98c7af2", "9f14f57d-7c41-40f5-857b-99fe2122a6af", "34dbecd4-0c51-4ce4-bb41-ffc5475a7a9c"]
+  }],
+  "subTwins": ["0999ae26-75eb-4739-ace0-962c559d0770", "35c54477-9a81-42ff-a9ad-c47e3a04ba54", "93434f4a-996f-4b37-97a5-ae8f41e9a8d6", "11217986-d89c-4af2-8993-72d3d7208b26"]
 }, {
-  "id": "f4c8f75d-52dd-4129-abe7-cf222e7c1696",
+  "id": "9be622f8-2c9a-497c-bc60-17f8fc6637a8",
   "name": "Farm 3",
   "type": "FARM",
   "semantics": ["farm", "agriculture", "crops"],
@@ -557,17 +567,17 @@
     "value": "one"
   }, {
     "key": "address",
-    "value": "Schumannstrasse 96"
+    "value": "Schumannstrasse 39"
   }, {
     "key": "state",
     "value": "Hessen"
   }, {
     "key": "areaSize",
-    "value": "100009222"
+    "value": "100003882"
   }],
   "children": [{
-    "id": "203971d2-f39c-449c-b7bf-fa5a45502606",
-    "name": "Feld 17",
+    "id": "eeb7d6a9-861c-4ddd-bdd4-6956e007af36",
+    "name": "Feld 24",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -586,31 +596,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1927"
+      "value": "2911"
     }, {
       "key": "waterBalance",
-      "value": "-0.7904424102874723"
+      "value": "0.31275947172333224"
     }],
     "children": [{
-      "id": "9c9bfd73-2134-487a-a9fc-ffe43705bd0d",
+      "id": "3ed8ae83-2c59-4fee-88b8-2e2db842b237",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "67.1499251014863"
+        "value": "52.65608975064562"
       }]
     }, {
-      "id": "5bb23727-9c3a-4eba-9d76-7935ced166a1",
+      "id": "2dc1ac89-12df-47dc-b40b-7ea9e104687e",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "4.191151794250554"
+        "value": "2.6255189434466644"
       }]
     }, {
-      "id": "c6aa7421-2130-44c6-b371-239207239d13",
+      "id": "96087fa5-cc27-4ff2-bcb8-ed82a021bb45",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -619,18 +629,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "5"
+        "value": "2"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "4"
+        "value": "1"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["3ed8ae83-2c59-4fee-88b8-2e2db842b237", "2dc1ac89-12df-47dc-b40b-7ea9e104687e", "96087fa5-cc27-4ff2-bcb8-ed82a021bb45"]
   }, {
-    "id": "4d2a7537-2bf1-45c1-8132-9d06af936c03",
-    "name": "Feld 60",
+    "id": "52d9f305-3ce8-4ab8-bce0-4cf69a99d318",
+    "name": "Feld 70",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -653,31 +664,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1591"
+      "value": "3759"
     }, {
       "key": "waterBalance",
-      "value": "0.9013204500758294"
+      "value": "-0.7821882838122413"
     }],
     "children": [{
-      "id": "be882c5a-03b0-46bd-9588-5706e2139126",
+      "id": "fab75b61-8e6b-4dee-a968-9c82767c3e56",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "68.161061690529"
+        "value": "78.0414159526359"
       }]
     }, {
-      "id": "f8a5fe03-80db-49ed-b58f-200cc097977c",
+      "id": "597bb8fc-98b2-4bd0-8913-bda658c1d608",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "5.703961350227488"
+        "value": "4.356234323755176"
       }]
     }, {
-      "id": "c91ee4e1-98d5-4db6-840f-d86b93e42cdf",
+      "id": "cfc3b0c5-a232-4767-abb9-27a9a1e3bbbb",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -686,18 +697,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "3"
+        "value": "10"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "1"
+        "value": "2"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["fab75b61-8e6b-4dee-a968-9c82767c3e56", "597bb8fc-98b2-4bd0-8913-bda658c1d608", "cfc3b0c5-a232-4767-abb9-27a9a1e3bbbb"]
   }, {
-    "id": "085b1f54-542d-4fa1-ae8f-702f37c05eda",
-    "name": "Feld 25",
+    "id": "c2ef723f-a9be-4f89-8688-4b910061524e",
+    "name": "Feld 73",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -714,31 +726,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2958"
+      "value": "1682"
     }, {
       "key": "waterBalance",
-      "value": "0.27222804606923434"
+      "value": "-0.724495633280372"
     }],
     "children": [{
-      "id": "0fa75620-9e1f-4cd6-bea4-1456c3139d98",
+      "id": "ca9a88c5-7de3-4974-b46e-ef378746ee56",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "88.8827043793104"
+        "value": "58.26970732684579"
       }]
     }, {
-      "id": "d6d84a83-969a-4173-84a6-cff9c37434e4",
+      "id": "2957f037-1d91-448d-8025-8be406b45e22",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "5.088912184276937"
+        "value": "3.3060524006355356"
       }]
     }, {
-      "id": "886866f8-6af5-47fa-a0b7-4494c1759987",
+      "id": "f1604c21-9041-4e0c-87e1-80300588ebfe",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -747,18 +759,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "4"
+        "value": "6"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "1"
+        "value": "2"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["ca9a88c5-7de3-4974-b46e-ef378746ee56", "2957f037-1d91-448d-8025-8be406b45e22", "f1604c21-9041-4e0c-87e1-80300588ebfe"]
   }, {
-    "id": "0bd5eb89-e03c-4403-af0c-4eec747669d5",
-    "name": "Feld 52",
+    "id": "b778ca2e-934d-4290-85d7-c53bab61ed95",
+    "name": "Feld 33",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -782,111 +795,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1581"
+      "value": "1944"
     }, {
       "key": "waterBalance",
-      "value": "-0.376000853121397"
+      "value": "-0.8773457328152818"
     }],
     "children": [{
-      "id": "f8c378ab-82e0-4717-ae4e-2fe753b32f8d",
+      "id": "0ad02aae-680f-4a40-a0dd-09353a044a2e",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "7.399988316764317"
+        "value": "65.58167654555974"
       }]
     }, {
-      "id": "6cfe90ef-e6f8-41e6-916e-18379691bd67",
+      "id": "e33db201-51ac-4c38-a71d-32a389235c43",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "3.7439948812716177"
+        "value": "2.9437024124332343"
       }]
     }, {
-      "id": "6f4c41a3-ff1e-4b6c-a14d-99fbd1452dad",
-      "name": "crop",
-      "type": "CROP",
-      "semantics": ["crop"],
-      "data": [{
-        "key": "cropType",
-        "value": "STRAWBERRY"
-      }, {
-        "key": "plantsPerSquareMeter",
-        "value": "6"
-      }, {
-        "key": "waterDemandPerPlant",
-        "value": "1"
-      }, {
-        "key": "requiresArtificialWatering",
-        "value": "true"
-      }]
-    }]
-  }]
-}, {
-  "id": "6ecb3f42-f918-490c-b58b-c380487e8eb6",
-  "name": "Farm 4",
-  "type": "FARM",
-  "semantics": ["farm", "agriculture", "crops"],
-  "data": [{
-    "key": "description",
-    "value": "one"
-  }, {
-    "key": "address",
-    "value": "Bachstrasse 72"
-  }, {
-    "key": "state",
-    "value": "Hessen"
-  }, {
-    "key": "areaSize",
-    "value": "100002941"
-  }],
-  "children": [{
-    "id": "2724c254-8b16-4f77-85fe-3bf271dd81d2",
-    "name": "Feld 4",
-    "type": "FIELD",
-    "semantics": ["agricultural", "crop"],
-    "location": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [9.8994327, 52.2448168],
-          [9.901793, 52.24818],
-          [9.8972225, 52.2484953],
-          [9.8968577, 52.2449744],
-          [9.8994327, 52.2448168]
-        ]
-      ]
-    },
-    "data": [{
-      "key": "areaSize",
-      "value": "1535"
-    }, {
-      "key": "waterBalance",
-      "value": "-0.7954164895003287"
-    }],
-    "children": [{
-      "id": "f6c0b1dd-87b9-45a1-a326-4caaf3952676",
-      "name": "humidity",
-      "type": "SENSOR",
-      "semantics": ["weather", "humidity"],
-      "data": [{
-        "key": "humidity",
-        "value": "24.146440190413742"
-      }]
-    }, {
-      "id": "218bc47e-fcf1-4d09-8a8d-90d864b2fb2b",
-      "name": "rainfall",
-      "type": "SENSOR",
-      "semantics": ["rainfall"],
-      "data": [{
-        "key": "rainfall",
-        "value": "4.910004251992111"
-      }]
-    }, {
-      "id": "4750e0bc-6c6c-4621-983d-f9a5bf66c0fb",
+      "id": "fc705200-5576-4af4-8566-cb990371f01f",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -903,10 +836,93 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["0ad02aae-680f-4a40-a0dd-09353a044a2e", "e33db201-51ac-4c38-a71d-32a389235c43", "fc705200-5576-4af4-8566-cb990371f01f"]
+  }],
+  "subTwins": ["eeb7d6a9-861c-4ddd-bdd4-6956e007af36", "52d9f305-3ce8-4ab8-bce0-4cf69a99d318", "c2ef723f-a9be-4f89-8688-4b910061524e", "b778ca2e-934d-4290-85d7-c53bab61ed95"]
+}, {
+  "id": "83c313d2-4699-45e5-823e-66e85d301c0f",
+  "name": "Farm 4",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": [{
+    "key": "description",
+    "value": "one"
   }, {
-    "id": "a566fcd6-1d89-47d0-b310-883080962c46",
-    "name": "Feld 55",
+    "key": "address",
+    "value": "Bachstrasse 82"
+  }, {
+    "key": "state",
+    "value": "Hessen"
+  }, {
+    "key": "areaSize",
+    "value": "100007563"
+  }],
+  "children": [{
+    "id": "411021d6-fc63-446b-8ca3-a3a987965c72",
+    "name": "Feld 31",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8994327, 52.2448168],
+          [9.901793, 52.24818],
+          [9.8972225, 52.2484953],
+          [9.8968577, 52.2449744],
+          [9.8994327, 52.2448168]
+        ]
+      ]
+    },
+    "data": [{
+      "key": "areaSize",
+      "value": "2170"
+    }, {
+      "key": "waterBalance",
+      "value": "-0.16746835243044336"
+    }],
+    "children": [{
+      "id": "85750ea7-ab1e-4554-8d8d-c782a45edfd9",
+      "name": "humidity",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": [{
+        "key": "humidity",
+        "value": "37.83765065334158"
+      }]
+    }, {
+      "id": "cec8ec05-74bc-4ec0-b600-67b48a78c45b",
+      "name": "rainfall",
+      "type": "SENSOR",
+      "semantics": ["rainfall"],
+      "data": [{
+        "key": "rainfall",
+        "value": "6.660253180556453"
+      }]
+    }, {
+      "id": "36d429a9-bd2f-440a-99af-bad9eca201a7",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": [{
+        "key": "cropType",
+        "value": "STRAWBERRY"
+      }, {
+        "key": "plantsPerSquareMeter",
+        "value": "8"
+      }, {
+        "key": "waterDemandPerPlant",
+        "value": "1"
+      }, {
+        "key": "requiresArtificialWatering",
+        "value": "true"
+      }]
+    }],
+    "subTwins": ["85750ea7-ab1e-4554-8d8d-c782a45edfd9", "cec8ec05-74bc-4ec0-b600-67b48a78c45b", "36d429a9-bd2f-440a-99af-bad9eca201a7"]
+  }, {
+    "id": "16f80e10-22de-4e3a-98a3-a33b173afc48",
+    "name": "Feld 69",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -926,31 +942,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1179"
+      "value": "3935"
     }, {
       "key": "waterBalance",
-      "value": "-0.3987200959619543"
+      "value": "2.02046005110903"
     }],
     "children": [{
-      "id": "74b33f74-c796-487b-a741-40aa5fd907f2",
+      "id": "f1b10e0f-7c10-435d-936d-d07be3c38031",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "88.7833703440156"
+        "value": "77.80232049793132"
       }]
     }, {
-      "id": "26158162-ec85-4814-abd6-c9af34eb0540",
+      "id": "54b62ff1-ea9b-4c7c-84d8-9d975b74cacd",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "5.411519136342411"
+        "value": "6.04092010221806"
       }]
     }, {
-      "id": "247edfb1-c0e8-4e3a-8c3e-4d7ca0955b46",
+      "id": "e9b39755-d060-43c8-b498-25569f5b6b14",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -959,18 +975,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "3"
+        "value": "1"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "3"
+        "value": "2"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["f1b10e0f-7c10-435d-936d-d07be3c38031", "54b62ff1-ea9b-4c7c-84d8-9d975b74cacd", "e9b39755-d060-43c8-b498-25569f5b6b14"]
   }, {
-    "id": "7875f097-8ea4-4727-810c-5a6c30d5e71b",
-    "name": "Feld 83",
+    "id": "9b604b58-51fa-4c65-a9c1-1796498ec928",
+    "name": "Feld 55",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -993,31 +1010,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2699"
+      "value": "2665"
     }, {
       "key": "waterBalance",
-      "value": "-0.5564211846699817"
+      "value": "-0.7928860218430169"
     }],
     "children": [{
-      "id": "d7051ec3-230b-463d-aa31-f80560c5b701",
+      "id": "b23d0cc9-e0ec-4255-b1f9-680042306d88",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "25.84564726229035"
+        "value": "80.83459554218373"
       }]
     }, {
-      "id": "995867dc-d694-447a-b6a4-7f9e681ba5c9",
+      "id": "3ed4b7f9-a7d4-44ff-8fa0-06ad3085e389",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "6.2101034146202565"
+        "value": "2.485367737883796"
       }]
     }, {
-      "id": "c0ef90d7-e7b3-4707-82ce-c5b6bfbc4c44",
+      "id": "a1519950-1789-4b1d-b102-49a5c35651d5",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1026,7 +1043,7 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "7"
+        "value": "6"
       }, {
         "key": "waterDemandPerPlant",
         "value": "2"
@@ -1034,10 +1051,11 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["b23d0cc9-e0ec-4255-b1f9-680042306d88", "3ed4b7f9-a7d4-44ff-8fa0-06ad3085e389", "a1519950-1789-4b1d-b102-49a5c35651d5"]
   }, {
-    "id": "ed99b071-0f7f-430e-bc3f-2a806b588b19",
-    "name": "Feld 33",
+    "id": "1ecf1f61-0d7b-4aed-8409-724050484d2e",
+    "name": "Feld 3",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1056,31 +1074,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2075"
+      "value": "1181"
     }, {
       "key": "waterBalance",
-      "value": "-0.7317917716352518"
+      "value": "-0.20445040656187854"
     }],
     "children": [{
-      "id": "7fea1c0a-e307-46fe-bddc-db563b341577",
+      "id": "dffc2c01-f553-4b87-a440-7a1731cf0a43",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "85.25987109401069"
+        "value": "26.75110038617393"
       }]
     }, {
-      "id": "688e37ff-e47c-4595-9fa3-8d09bcd497c6",
+      "id": "7cfd0d90-d041-4e1e-b12b-7b6ebac21518",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "1.0728329134589931"
+        "value": "5.56884715406685"
       }]
     }, {
-      "id": "4ba79907-a96e-4c93-9b5f-097cff134e35",
+      "id": "5e5ae7eb-9360-49f1-bd8e-c5f90cb6e65d",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1089,18 +1107,20 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "1"
+        "value": "7"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "4"
+        "value": "1"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
-  }]
+    }],
+    "subTwins": ["dffc2c01-f553-4b87-a440-7a1731cf0a43", "7cfd0d90-d041-4e1e-b12b-7b6ebac21518", "5e5ae7eb-9360-49f1-bd8e-c5f90cb6e65d"]
+  }],
+  "subTwins": ["411021d6-fc63-446b-8ca3-a3a987965c72", "16f80e10-22de-4e3a-98a3-a33b173afc48", "9b604b58-51fa-4c65-a9c1-1796498ec928", "1ecf1f61-0d7b-4aed-8409-724050484d2e"]
 }, {
-  "id": "bb8b5410-db08-44c4-86f6-93e8a868d873",
+  "id": "5c6a184e-8dd8-4143-a055-8efa1933e8db",
   "name": "Farm 5",
   "type": "FARM",
   "semantics": ["farm", "agriculture", "crops"],
@@ -1109,17 +1129,17 @@
     "value": "one"
   }, {
     "key": "address",
-    "value": "Bachstrasse 75"
+    "value": "Gluckstrasse 56"
   }, {
     "key": "state",
     "value": "Hessen"
   }, {
     "key": "areaSize",
-    "value": "100002917"
+    "value": "10000326"
   }],
   "children": [{
-    "id": "e08a532c-479e-4c23-b7b5-f4e3771be92b",
-    "name": "Feld 94",
+    "id": "db608e04-022f-4b7e-bd06-e4fcdb82b4ce",
+    "name": "Feld 8",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1136,31 +1156,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2104"
+      "value": "1618"
     }, {
       "key": "waterBalance",
-      "value": "-0.9862109185383027"
+      "value": "0.1553923446670003"
     }],
     "children": [{
-      "id": "6d8bfe27-3bd3-4e49-a569-30b3b2e16ca6",
+      "id": "7c01a05d-3b8a-4c23-9355-c7f2bad99df4",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "95.82948819024317"
+        "value": "74.78583570050978"
       }]
     }, {
-      "id": "a0798a91-9b3f-4f4b-94fd-ef90a3f5d8d8",
+      "id": "20ba41c7-617a-45de-846c-3634051cf63e",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "0.3723051994658283"
+        "value": "4.621569378668001"
       }]
     }, {
-      "id": "25a5b90d-78c0-4d7a-881f-4dc6889e3c81",
+      "id": "6307ae3c-fc2f-42f7-b86a-49da37966cc2",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1169,18 +1189,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "9"
+        "value": "1"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "3"
+        "value": "4"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["7c01a05d-3b8a-4c23-9355-c7f2bad99df4", "20ba41c7-617a-45de-846c-3634051cf63e", "6307ae3c-fc2f-42f7-b86a-49da37966cc2"]
   }, {
-    "id": "dbc5b30e-fa50-42f6-998f-22319078c2bc",
-    "name": "Feld 17",
+    "id": "c38c4882-4572-416d-a99a-4b92408008c8",
+    "name": "Feld 86",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1198,31 +1219,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2789"
+      "value": "3646"
     }, {
       "key": "waterBalance",
-      "value": "-0.672488060605566"
+      "value": "0.15881031377364022"
     }],
     "children": [{
-      "id": "a0d4f3c5-d1db-49fb-a634-c1efc3c9c715",
+      "id": "2ff6bdc0-fc0f-44bf-b9ac-d34d70f1a637",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "25.391111739972306"
+        "value": "34.386982560627054"
       }]
     }, {
-      "id": "ea526873-5103-4f5d-94f1-d4f97ff2a820",
+      "id": "04df1460-9a11-4427-b4f5-6db91b48294f",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "5.240191030310943"
+        "value": "4.635241255094561"
       }]
     }, {
-      "id": "8d7207d6-a8fa-4fe4-97ea-79a22d05eebc",
+      "id": "98435198-0faa-4b44-8ec6-666097747bfb",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1234,15 +1255,16 @@
         "value": "4"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "4"
+        "value": "1"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["2ff6bdc0-fc0f-44bf-b9ac-d34d70f1a637", "04df1460-9a11-4427-b4f5-6db91b48294f", "98435198-0faa-4b44-8ec6-666097747bfb"]
   }, {
-    "id": "b41f96d7-cfb2-4a1f-bf20-0988c003edb4",
-    "name": "Feld 20",
+    "id": "4c339870-4d19-4fa2-b177-01b7b5243aa8",
+    "name": "Feld 65",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1260,31 +1282,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3022"
+      "value": "3977"
     }, {
       "key": "waterBalance",
-      "value": "-0.861333590550332"
+      "value": "-0.8683684880644178"
     }],
     "children": [{
-      "id": "7640af62-765a-42ad-8c71-6624d7634117",
+      "id": "7f93dad2-b38e-4c7c-813c-36381b14ac8b",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "53.66257091409725"
+        "value": "1.6167334394686539"
       }]
     }, {
-      "id": "c414a092-f478-4a32-8110-d90146e8ad40",
+      "id": "f7c312fe-7106-4bce-99a8-aa6e9d1db1c4",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "3.882659464590703"
+        "value": "1.3163151193558207"
       }]
     }, {
-      "id": "cd3256a0-0549-4a72-967f-7d9122b82f9a",
+      "id": "bebdd503-4f8d-4a5b-a047-5941f8bc1cba",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1293,18 +1315,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "7"
+        "value": "10"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "4"
+        "value": "1"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["7f93dad2-b38e-4c7c-813c-36381b14ac8b", "f7c312fe-7106-4bce-99a8-aa6e9d1db1c4", "bebdd503-4f8d-4a5b-a047-5941f8bc1cba"]
   }, {
-    "id": "2aba601a-d6b4-44a8-8143-6eca7ecd89f7",
-    "name": "Feld 17",
+    "id": "dca2b4de-cb12-4c8f-b8e9-463b951d8c2e",
+    "name": "Feld 87",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1321,31 +1344,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2748"
+      "value": "1338"
     }, {
       "key": "waterBalance",
-      "value": "-0.9613525025281322"
+      "value": "-0.8383007117089862"
     }],
     "children": [{
-      "id": "0d7fc7a6-9cf7-469b-8ea9-3e6826e34bc6",
+      "id": "8a45bfb7-387e-4b6f-b443-437dc6ce4980",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "63.58106734957435"
+        "value": "94.33509592412577"
       }]
     }, {
-      "id": "bf4ce14f-6882-4c6b-a197-2a25bd78ffe9",
+      "id": "d0c6025f-cf61-4225-9c1c-43790f351479",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "0.8115974469092238"
+        "value": "2.910587189238249"
       }]
     }, {
-      "id": "25d0ff7d-1514-4ee4-a364-00c976ea147e",
+      "id": "a7c9532a-707e-4d81-bdb2-db50cf920c96",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1354,7 +1377,7 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "7"
+        "value": "6"
       }, {
         "key": "waterDemandPerPlant",
         "value": "3"
@@ -1362,10 +1385,12 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
-  }]
+    }],
+    "subTwins": ["8a45bfb7-387e-4b6f-b443-437dc6ce4980", "d0c6025f-cf61-4225-9c1c-43790f351479", "a7c9532a-707e-4d81-bdb2-db50cf920c96"]
+  }],
+  "subTwins": ["db608e04-022f-4b7e-bd06-e4fcdb82b4ce", "c38c4882-4572-416d-a99a-4b92408008c8", "4c339870-4d19-4fa2-b177-01b7b5243aa8", "dca2b4de-cb12-4c8f-b8e9-463b951d8c2e"]
 }, {
-  "id": "96953cf2-771f-4d65-9e68-3ff015966ad6",
+  "id": "f9d6dca5-9450-474c-86a7-0bcc7d81bb54",
   "name": "Farm 6",
   "type": "FARM",
   "semantics": ["farm", "agriculture", "crops"],
@@ -1374,17 +1399,17 @@
     "value": "one"
   }, {
     "key": "address",
-    "value": "Schumannstrasse 50"
+    "value": "Mendelssohnstrasse 82"
   }, {
     "key": "state",
     "value": "Hessen"
   }, {
     "key": "areaSize",
-    "value": "100003205"
+    "value": "100009828"
   }],
   "children": [{
-    "id": "c982249e-f778-4e9b-8d88-fde2ec7551a4",
-    "name": "Feld 60",
+    "id": "4ab8ce75-421f-4c87-8ccc-e43fee3573f9",
+    "name": "Feld 68",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1404,31 +1429,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1584"
+      "value": "1364"
     }, {
       "key": "waterBalance",
-      "value": "0.5919743505325983"
+      "value": "1.087859572194967"
     }],
     "children": [{
-      "id": "870788db-6070-4540-96c0-184397853795",
+      "id": "d4623335-fda4-4ee9-814b-65435438bead",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "9.189751422176029"
+        "value": "84.53433018775712"
       }]
     }, {
-      "id": "8d50a462-b3d1-406a-9b02-83f11bcdb721",
+      "id": "38a44b17-24b1-4cc4-b091-6be28803404f",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "4.775923051597795"
+        "value": "6.2635787165849015"
       }]
     }, {
-      "id": "ad20fe7e-1113-47e2-8810-4e5177327c86",
+      "id": "8c01d3f3-c7a0-42db-8c1b-18c9608256b2",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1445,10 +1470,11 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["d4623335-fda4-4ee9-814b-65435438bead", "38a44b17-24b1-4cc4-b091-6be28803404f", "8c01d3f3-c7a0-42db-8c1b-18c9608256b2"]
   }, {
-    "id": "ab34a834-c6a9-4479-a26a-ff9f4b0c45e8",
-    "name": "Feld 89",
+    "id": "ab79f2b0-97c6-4cee-9dc1-06c28b1edfc8",
+    "name": "Feld 30",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1473,31 +1499,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1047"
+      "value": "1202"
     }, {
       "key": "waterBalance",
-      "value": "-0.01508073385700926"
+      "value": "-0.7136356260647733"
     }],
     "children": [{
-      "id": "ea5d3e48-3882-4c43-8dde-4c70be564d2c",
+      "id": "c498a5a4-b42a-40ec-b342-8eafbbd869f2",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "86.18755976884475"
+        "value": "95.84147173322908"
       }]
     }, {
-      "id": "49f4f0e7-4b1f-45ab-902d-c837db50ddd2",
+      "id": "007c3c0c-f910-476c-b3f5-34fee54f092c",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "4.924596330714953"
+        "value": "6.013651852639761"
       }]
     }, {
-      "id": "eb15a68e-14ec-4239-8327-7fb9cb65eaac",
+      "id": "ddb2003d-2050-4f64-91bd-cd2078ebba0f",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1506,18 +1532,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "5"
+        "value": "7"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "1"
+        "value": "3"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["c498a5a4-b42a-40ec-b342-8eafbbd869f2", "007c3c0c-f910-476c-b3f5-34fee54f092c", "ddb2003d-2050-4f64-91bd-cd2078ebba0f"]
   }, {
-    "id": "69cb16a3-f963-4f20-917d-797bd22d5d6a",
-    "name": "Feld 32",
+    "id": "1785fa6d-b8b2-4067-be6b-2422542c33f3",
+    "name": "Feld 3",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1535,31 +1562,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1527"
+      "value": "3043"
     }, {
       "key": "waterBalance",
-      "value": "-0.5488058059673859"
+      "value": "-0.1487063609608408"
     }],
     "children": [{
-      "id": "cc694f0a-79b0-4668-aeea-2efbb184f076",
+      "id": "cdc6ed9d-e299-49eb-b139-226a20b60bc8",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "92.0458054790594"
+        "value": "64.22011223504096"
       }]
     }, {
-      "id": "807c1691-c9be-40ed-8553-4bf8df200bae",
+      "id": "820bdc03-815f-4e60-b00d-f093e3920900",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "5.414330328391368"
+        "value": "5.959055473274114"
       }]
     }, {
-      "id": "93319dc6-37fa-48ce-8bb2-7af88de6c507",
+      "id": "6b5d7c0a-71a3-4718-9036-363bf8e9dad0",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1568,18 +1595,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "6"
+        "value": "7"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "2"
+        "value": "1"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["cdc6ed9d-e299-49eb-b139-226a20b60bc8", "820bdc03-815f-4e60-b00d-f093e3920900", "6b5d7c0a-71a3-4718-9036-363bf8e9dad0"]
   }, {
-    "id": "eff06d03-8966-463d-b762-443051d901a8",
-    "name": "Feld 15",
+    "id": "4b6929ea-b047-4605-89e1-5edf8c01f609",
+    "name": "Feld 8",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1595,31 +1623,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2339"
+      "value": "2295"
     }, {
       "key": "waterBalance",
-      "value": "-0.7195974283684581"
+      "value": "-0.12912057160821394"
     }],
     "children": [{
-      "id": "a4143695-f6c8-40bf-9772-5aa419370cd3",
+      "id": "d1e0609e-b5a5-4869-af8b-50d7a2feb542",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "45.53130469291702"
+        "value": "91.60456769360354"
       }]
     }, {
-      "id": "041a971d-49f8-46a5-986a-b34e4727a6c1",
+      "id": "dfdc84be-2f03-4c9c-9eab-b77675dbf2c4",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "1.682415429789252"
+        "value": "5.225276570350716"
       }]
     }, {
-      "id": "645b2f47-1b1f-4536-a8e0-899f94721b8f",
+      "id": "73dc2a23-b7ab-482b-a781-4ba9222b9c2e",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1628,18 +1656,20 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "6"
+        "value": "3"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "1"
+        "value": "2"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
-  }]
+    }],
+    "subTwins": ["d1e0609e-b5a5-4869-af8b-50d7a2feb542", "dfdc84be-2f03-4c9c-9eab-b77675dbf2c4", "73dc2a23-b7ab-482b-a781-4ba9222b9c2e"]
+  }],
+  "subTwins": ["4ab8ce75-421f-4c87-8ccc-e43fee3573f9", "ab79f2b0-97c6-4cee-9dc1-06c28b1edfc8", "1785fa6d-b8b2-4067-be6b-2422542c33f3", "4b6929ea-b047-4605-89e1-5edf8c01f609"]
 }, {
-  "id": "3d98042f-4546-408f-ad95-a4c689f29d35",
+  "id": "d067a310-5688-4a23-93cc-b7a70d3a4ddb",
   "name": "Farm 7",
   "type": "FARM",
   "semantics": ["farm", "agriculture", "crops"],
@@ -1648,16 +1678,16 @@
     "value": "one"
   }, {
     "key": "address",
-    "value": "Schumannstrasse 87"
+    "value": "Telemannstrasse 77"
   }, {
     "key": "state",
     "value": "Hessen"
   }, {
     "key": "areaSize",
-    "value": "100008970"
+    "value": "100004615"
   }],
   "children": [{
-    "id": "c4a81d98-1e6e-4e7f-99d1-6a9468e92da6",
+    "id": "9989261f-9ef0-4abb-8546-1d7a68dd4acf",
     "name": "Feld 52",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
@@ -1677,31 +1707,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3410"
+      "value": "1316"
     }, {
       "key": "waterBalance",
-      "value": "0.5718637852784214"
+      "value": "-0.6997652393047515"
     }],
     "children": [{
-      "id": "46ecf654-5235-4dc1-b77a-0f8b0e16979c",
+      "id": "ea145688-099c-4e4c-8988-c1583c6cb447",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "18.813409288000383"
+        "value": "38.72202406776067"
       }]
     }, {
-      "id": "f6c317f3-4259-48d6-b24e-d1c03a2430fb",
+      "id": "4b1ea4d7-5022-4dc3-9cbe-03cc2bf00f00",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "4.715591355835264"
+        "value": "1.801408564171491"
       }]
     }, {
-      "id": "b2fea75a-7f73-4b33-b1f1-9d89b319d773",
+      "id": "bcfae13d-ffd0-495a-907f-7e6428eee803",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1710,18 +1740,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "1"
+        "value": "3"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "3"
+        "value": "2"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["ea145688-099c-4e4c-8988-c1583c6cb447", "4b1ea4d7-5022-4dc3-9cbe-03cc2bf00f00", "bcfae13d-ffd0-495a-907f-7e6428eee803"]
   }, {
-    "id": "e1613797-0b02-4af2-96bb-70c8f52e5d5a",
-    "name": "Feld 85",
+    "id": "13820ee0-81cb-4e7c-abdd-cf2d77624d92",
+    "name": "Feld 47",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1740,31 +1771,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1502"
+      "value": "1414"
     }, {
       "key": "waterBalance",
-      "value": "-0.7461318908084245"
+      "value": "-0.18760036322408682"
     }],
     "children": [{
-      "id": "c06293b4-878d-4f5c-a82c-c9480fb52793",
+      "id": "ac804c2b-74fc-4b48-b8a9-505bfa0d92cf",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "57.1954897674522"
+        "value": "13.857948125819897"
       }]
     }, {
-      "id": "13a60b36-22e0-4d24-b53c-71affaf58675",
+      "id": "a336a6aa-7e1b-40c4-b234-7c06f4139ab2",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "1.5232086551494526"
+        "value": "6.499197094207306"
       }]
     }, {
-      "id": "b02711d8-a2f7-4157-899e-76421033fc22",
+      "id": "ce56aa65-8641-40c5-97bb-8f7e8842f8e2",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1773,18 +1804,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "3"
+        "value": "8"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "2"
+        "value": "1"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["ac804c2b-74fc-4b48-b8a9-505bfa0d92cf", "a336a6aa-7e1b-40c4-b234-7c06f4139ab2", "ce56aa65-8641-40c5-97bb-8f7e8842f8e2"]
   }, {
-    "id": "9067d315-3407-4344-8c34-8e8674c2462e",
-    "name": "Feld 7",
+    "id": "ab1e3f2e-1a5a-4947-afa9-59607e721508",
+    "name": "Feld 71",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1803,31 +1835,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3296"
+      "value": "2283"
     }, {
       "key": "waterBalance",
-      "value": "-0.8464557929770651"
+      "value": "-0.08998457018978748"
     }],
     "children": [{
-      "id": "cb69851d-2d18-474d-af96-265542ee0212",
+      "id": "e8fe1db3-91bd-4164-9fcc-8bb66ab1e27b",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "26.598944503452426"
+        "value": "17.69022800431226"
       }]
     }, {
-      "id": "e3b486e7-0dde-4bc1-b02d-2c68f151a728",
+      "id": "adbf5a4f-0720-4504-ba5b-558b4f41949d",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "2.149618898321089"
+        "value": "5.460092578861275"
       }]
     }, {
-      "id": "37b310f2-f704-4a21-a831-9c5adecd9893",
+      "id": "992bb4f7-e8bc-4f0e-af5c-63dd831c97a8",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1836,18 +1868,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "7"
+        "value": "2"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "2"
+        "value": "3"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["e8fe1db3-91bd-4164-9fcc-8bb66ab1e27b", "adbf5a4f-0720-4504-ba5b-558b4f41949d", "992bb4f7-e8bc-4f0e-af5c-63dd831c97a8"]
   }, {
-    "id": "12b6ba49-d575-4d43-bea9-251153163e64",
-    "name": "Feld 5",
+    "id": "d744cf03-f0d3-4dac-8f71-3dc8b3600fd1",
+    "name": "Feld 92",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1865,31 +1898,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2452"
+      "value": "3733"
     }, {
       "key": "waterBalance",
-      "value": "-0.8384405855454163"
+      "value": "-0.5813701497558554"
     }],
     "children": [{
-      "id": "d75f6cb0-58b4-41dc-aabb-d37b092e2601",
+      "id": "521e4376-c7e9-4ed8-b370-cc8fe19c4fc4",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "70.98690701538027"
+        "value": "3.7554112345065005"
       }]
     }, {
-      "id": "b308f890-f5c0-4250-b026-0be12a1d09e1",
+      "id": "f03f665e-c18f-420c-9c22-d2ce441d7067",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "0.6462376578183349"
+        "value": "6.2794477536621685"
       }]
     }, {
-      "id": "726f7c6c-8193-4293-8bfa-f6d777673bdc",
+      "id": "5361112d-cae9-4321-873c-8c4e7d8e3b34",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1898,18 +1931,20 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "1"
+        "value": "5"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "4"
+        "value": "3"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
-  }]
+    }],
+    "subTwins": ["521e4376-c7e9-4ed8-b370-cc8fe19c4fc4", "f03f665e-c18f-420c-9c22-d2ce441d7067", "5361112d-cae9-4321-873c-8c4e7d8e3b34"]
+  }],
+  "subTwins": ["9989261f-9ef0-4abb-8546-1d7a68dd4acf", "13820ee0-81cb-4e7c-abdd-cf2d77624d92", "ab1e3f2e-1a5a-4947-afa9-59607e721508", "d744cf03-f0d3-4dac-8f71-3dc8b3600fd1"]
 }, {
-  "id": "e62aeb4b-5709-418b-aaf7-f881aa282c10",
+  "id": "f5a5a554-5f89-4e98-a695-afb0b9ad344d",
   "name": "Farm 8",
   "type": "FARM",
   "semantics": ["farm", "agriculture", "crops"],
@@ -1918,17 +1953,17 @@
     "value": "one"
   }, {
     "key": "address",
-    "value": "Beethovenstrasse 17"
+    "value": "Telemannstrasse 72"
   }, {
     "key": "state",
     "value": "Hessen"
   }, {
     "key": "areaSize",
-    "value": "100003942"
+    "value": "100001836"
   }],
   "children": [{
-    "id": "26fe71a0-a335-42c4-b1d6-95b103d98619",
-    "name": "Feld 48",
+    "id": "5edb64e0-abd5-4a0c-961d-51f95b309604",
+    "name": "Feld 26",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -1949,31 +1984,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3645"
+      "value": "3103"
     }, {
       "key": "waterBalance",
-      "value": "-0.7996399050083439"
+      "value": "-0.5293597306504285"
     }],
     "children": [{
-      "id": "62472023-5f7b-4de5-b1d0-b412af07f03a",
+      "id": "d51f32be-46ea-4068-b8a1-2d9ea6b069a1",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "14.11576931849895"
+        "value": "40.687995481130315"
       }]
     }, {
-      "id": "175b0729-529d-436c-899c-b459635d2d37",
+      "id": "e088b3f8-4345-4f0d-b2c7-707d33c88595",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "6.010802849749682"
+        "value": "5.647683232194858"
       }]
     }, {
-      "id": "b9208bbb-8911-4f42-86ba-1527fa99d3f5",
+      "id": "47025602-b176-4b86-8442-a8e22eaa0bf4",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -1982,18 +2017,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "10"
+        "value": "3"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "3"
+        "value": "4"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["d51f32be-46ea-4068-b8a1-2d9ea6b069a1", "e088b3f8-4345-4f0d-b2c7-707d33c88595", "47025602-b176-4b86-8442-a8e22eaa0bf4"]
   }, {
-    "id": "8a053ff9-47ce-4a79-854c-06066b18719f",
-    "name": "Feld 11",
+    "id": "bd30ab2d-8232-4e56-9c99-fd6fa626c4a8",
+    "name": "Feld 92",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2012,31 +2048,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1617"
+      "value": "2814"
     }, {
       "key": "waterBalance",
-      "value": "-0.6366423213006864"
+      "value": "-0.9708703254540558"
     }],
     "children": [{
-      "id": "0a3c5c6b-4620-40e3-9a2d-cb06a28897d9",
+      "id": "752fa097-ecf0-4b08-b06b-36ffc551d4ae",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "90.79025515405176"
+        "value": "92.21828246617272"
       }]
     }, {
-      "id": "1bca90be-7ad4-424a-a804-840f059fbdd5",
+      "id": "6caa9e89-ebf4-4f3f-9743-3001cabae60a",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "3.633576786993136"
+        "value": "1.1651869818377634"
       }]
     }, {
-      "id": "248f9d06-023d-408a-b2cc-f5f4d06289c4",
+      "id": "f4c90d72-a818-430d-b2fb-24f437f5c845",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2048,15 +2084,16 @@
         "value": "10"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "1"
+        "value": "4"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["752fa097-ecf0-4b08-b06b-36ffc551d4ae", "6caa9e89-ebf4-4f3f-9743-3001cabae60a", "f4c90d72-a818-430d-b2fb-24f437f5c845"]
   }, {
-    "id": "0b02b760-2cc1-4b15-8a96-38023b176ce1",
-    "name": "Feld 17",
+    "id": "f0c747e2-3ef2-4612-8739-b73ef94e432a",
+    "name": "Feld 34",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2074,31 +2111,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3267"
+      "value": "3040"
     }, {
       "key": "waterBalance",
-      "value": "0.009931287910863127"
+      "value": "-0.6270238178540157"
     }],
     "children": [{
-      "id": "878ea38f-7f18-48ae-817d-d3d705876648",
+      "id": "d6d6ef35-678f-41ec-9472-9b62854e84ad",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "99.38246273704614"
+        "value": "86.71391971420074"
       }]
     }, {
-      "id": "3356ca23-60c0-4c55-a0bd-d68345a2c3c9",
+      "id": "33029baf-2b76-4c27-a6f1-498ce557f842",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "6.059587727465178"
+        "value": "5.594642732189764"
       }]
     }, {
-      "id": "825fb28f-9cdf-4801-b063-2a31a274f8a1",
+      "id": "0661f057-5d98-45c7-918f-306095646118",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2107,7 +2144,7 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "2"
+        "value": "5"
       }, {
         "key": "waterDemandPerPlant",
         "value": "3"
@@ -2115,10 +2152,11 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["d6d6ef35-678f-41ec-9472-9b62854e84ad", "33029baf-2b76-4c27-a6f1-498ce557f842", "0661f057-5d98-45c7-918f-306095646118"]
   }, {
-    "id": "91a0d2bd-b5e7-4ad8-a561-82ab04881c9e",
-    "name": "Feld 70",
+    "id": "3eb2e233-2f46-47c7-b743-8f2bb186fae2",
+    "name": "Feld 56",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2137,31 +2175,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2120"
+      "value": "2293"
     }, {
       "key": "waterBalance",
-      "value": "-0.867936111777434"
+      "value": "-0.8379605879444042"
     }],
     "children": [{
-      "id": "781a0050-9519-4e88-91f2-6e6437efa4d0",
+      "id": "a3b9859c-94b4-4626-9ede-17ace88355aa",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "32.16965178718254"
+        "value": "47.43031359671013"
       }]
     }, {
-      "id": "f072f065-6c71-41dd-9de4-69028c4380e6",
+      "id": "9fac2471-dce6-41c3-8ed6-541a8c9916d9",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "2.773341652673886"
+        "value": "2.916709417000725"
       }]
     }, {
-      "id": "fb6caa71-5ccc-4b34-8187-744752d829d2",
+      "id": "1706d208-7e6f-4be0-9ce7-27894fffee24",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2170,7 +2208,7 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "7"
+        "value": "6"
       }, {
         "key": "waterDemandPerPlant",
         "value": "3"
@@ -2178,10 +2216,12 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
-  }]
+    }],
+    "subTwins": ["a3b9859c-94b4-4626-9ede-17ace88355aa", "9fac2471-dce6-41c3-8ed6-541a8c9916d9", "1706d208-7e6f-4be0-9ce7-27894fffee24"]
+  }],
+  "subTwins": ["5edb64e0-abd5-4a0c-961d-51f95b309604", "bd30ab2d-8232-4e56-9c99-fd6fa626c4a8", "f0c747e2-3ef2-4612-8739-b73ef94e432a", "3eb2e233-2f46-47c7-b743-8f2bb186fae2"]
 }, {
-  "id": "6791b579-49f7-4614-9246-f81a83a82aea",
+  "id": "914bb849-8ba8-45c1-84eb-d7249e5d5056",
   "name": "Farm 9",
   "type": "FARM",
   "semantics": ["farm", "agriculture", "crops"],
@@ -2190,17 +2230,17 @@
     "value": "one"
   }, {
     "key": "address",
-    "value": "Bachstrasse 94"
+    "value": "Brahmsstrasse 9"
   }, {
     "key": "state",
     "value": "Hessen"
   }, {
     "key": "areaSize",
-    "value": "100001476"
+    "value": "100007590"
   }],
   "children": [{
-    "id": "eb608140-9f09-405e-9a38-160f82bee1f1",
-    "name": "Feld 82",
+    "id": "6c3c13d8-c9bd-4fb2-9310-4b8a11d3f429",
+    "name": "Feld 28",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2217,31 +2257,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1356"
+      "value": "3046"
     }, {
       "key": "waterBalance",
-      "value": "-0.2548347752062229"
+      "value": "-0.7558294585927984"
     }],
     "children": [{
-      "id": "e28511e0-3f7a-4fb1-90dc-03955d927fdc",
+      "id": "10632aaf-9913-425b-8c3a-6eb352edd266",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "20.53707635756622"
+        "value": "94.5798390408683"
       }]
     }, {
-      "id": "6f7b83d1-96f8-4683-97b6-bd43833ccc1b",
+      "id": "361b6bcd-d476-4716-9f69-8462b963e86f",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "5.961321798350217"
+        "value": "3.906728662515225"
       }]
     }, {
-      "id": "7a14ec75-6d99-4d9c-a48d-1bc1a58f6271",
+      "id": "54782ea0-dc31-453e-99cd-0978fee5c7bc",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2250,7 +2290,7 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "2"
+        "value": "4"
       }, {
         "key": "waterDemandPerPlant",
         "value": "4"
@@ -2258,10 +2298,11 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["10632aaf-9913-425b-8c3a-6eb352edd266", "361b6bcd-d476-4716-9f69-8462b963e86f", "54782ea0-dc31-453e-99cd-0978fee5c7bc"]
   }, {
-    "id": "b5d65514-5e34-4dc7-bff9-5b00bf42c0e1",
-    "name": "Feld 79",
+    "id": "9c03d588-6df7-446b-9065-f06f02b6d839",
+    "name": "Feld 83",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2279,31 +2320,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1351"
+      "value": "2082"
     }, {
       "key": "waterBalance",
-      "value": "-0.8288836737356776"
+      "value": "-0.9368235180016539"
     }],
     "children": [{
-      "id": "9cd77d32-2f32-447c-b2cf-ac50ab04fac8",
+      "id": "7e4e9671-2773-4f88-86cf-19ea3d4edff5",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "92.16450671888987"
+        "value": "63.379509932983545"
       }]
     }, {
-      "id": "a4afcc48-a3ef-4b2a-ad82-8a0d03f92ab9",
+      "id": "a93af558-5c89-4bb3-8ae3-a86eeed0bcb9",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "2.5667448939648367"
+        "value": "1.2635296399669227"
       }]
     }, {
-      "id": "e81d8cb7-8c0b-4055-8236-d6b991cef693",
+      "id": "8e6dccdc-baaf-4b8c-8cc1-04efb91a3148",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2315,15 +2356,16 @@
         "value": "5"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "3"
+        "value": "4"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["7e4e9671-2773-4f88-86cf-19ea3d4edff5", "a93af558-5c89-4bb3-8ae3-a86eeed0bcb9", "8e6dccdc-baaf-4b8c-8cc1-04efb91a3148"]
   }, {
-    "id": "933ea327-3a07-45ef-b757-a6745dcca61b",
-    "name": "Feld 66",
+    "id": "9eebc147-7328-4d37-97f9-4068f4290a98",
+    "name": "Feld 10",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2343,31 +2385,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1270"
+      "value": "2481"
     }, {
       "key": "waterBalance",
-      "value": "-0.6808710524651385"
+      "value": "0.12369023792169283"
     }],
     "children": [{
-      "id": "48ebfb8e-6af8-40f3-ac75-9492416e8730",
+      "id": "8342334e-da81-43fa-97ef-7d2088dc8623",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "98.78395890966573"
+        "value": "58.95448578606539"
       }]
     }, {
-      "id": "7f6fc7e7-2cd8-45fa-9f8c-ab8a4662e161",
+      "id": "2b20afee-3842-4384-aba7-8650385e4232",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "3.8295473704183394"
+        "value": "6.742141427530156"
       }]
     }, {
-      "id": "6b76dfe4-0e8b-4d8c-8f6b-f9735bd7bd81",
+      "id": "2047aa87-a726-471a-be97-2b24eac0c891",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2376,18 +2418,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "4"
+        "value": "3"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "3"
+        "value": "2"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["8342334e-da81-43fa-97ef-7d2088dc8623", "2b20afee-3842-4384-aba7-8650385e4232", "2047aa87-a726-471a-be97-2b24eac0c891"]
   }, {
-    "id": "ab16d7bb-c176-4d43-9e12-21c262ffb77c",
-    "name": "Feld 32",
+    "id": "d19ffcad-6d95-4e19-9375-b8094e708931",
+    "name": "Feld 19",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2407,31 +2450,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1965"
+      "value": "3608"
     }, {
       "key": "waterBalance",
-      "value": "3.112578992117067"
+      "value": "-0.7114908042659781"
     }],
     "children": [{
-      "id": "1d858ee4-b8ea-41d0-987c-c70345ab2412",
+      "id": "da0bba1b-87b5-4ae6-a4e2-99b62b51d4f6",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "76.81902995352563"
+        "value": "40.98964065409274"
       }]
     }, {
-      "id": "e4c5250c-a9c7-4675-af8e-e9cb6b698909",
+      "id": "61be9f4d-1210-4226-b30c-258daf1ea7b7",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "4.112578992117067"
+        "value": "4.039128740276308"
       }]
     }, {
-      "id": "32f89357-cc14-46eb-8481-8a4e7e0dae87",
+      "id": "6fef190e-0c3e-4161-a953-9fc76b1abb74",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2440,18 +2483,20 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "1"
+        "value": "7"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "1"
+        "value": "2"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
-  }]
+    }],
+    "subTwins": ["da0bba1b-87b5-4ae6-a4e2-99b62b51d4f6", "61be9f4d-1210-4226-b30c-258daf1ea7b7", "6fef190e-0c3e-4161-a953-9fc76b1abb74"]
+  }],
+  "subTwins": ["6c3c13d8-c9bd-4fb2-9310-4b8a11d3f429", "9c03d588-6df7-446b-9065-f06f02b6d839", "9eebc147-7328-4d37-97f9-4068f4290a98", "d19ffcad-6d95-4e19-9375-b8094e708931"]
 }, {
-  "id": "0db47eb7-f02f-4deb-93c4-cbe1fa46926f",
+  "id": "5b71fa76-e15b-4393-b202-b2a6707f4481",
   "name": "Farm 10",
   "type": "FARM",
   "semantics": ["farm", "agriculture", "crops"],
@@ -2460,17 +2505,17 @@
     "value": "one"
   }, {
     "key": "address",
-    "value": "Schumannstrasse 71"
+    "value": "Telemannstrasse 67"
   }, {
     "key": "state",
     "value": "Hessen"
   }, {
     "key": "areaSize",
-    "value": "100004450"
+    "value": "100004856"
   }],
   "children": [{
-    "id": "f2c5b9d3-57a4-418f-82cc-34853c3cbbe5",
-    "name": "Feld 13",
+    "id": "5ab2a357-c9b7-4708-84b3-58fb570cbdf6",
+    "name": "Feld 21",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2499,31 +2544,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1631"
+      "value": "2470"
     }, {
       "key": "waterBalance",
-      "value": "1.398054000387379"
+      "value": "-0.8150440632602373"
     }],
     "children": [{
-      "id": "110ae606-3b0e-445f-bac2-0e1cd30f0af0",
+      "id": "6935a69c-9c29-4b10-9814-671a9aecda1e",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "64.26263662489994"
+        "value": "67.57733725706532"
       }]
     }, {
-      "id": "c05f63f9-d63e-487c-ae2f-2216f06638d9",
+      "id": "ec566855-f8ab-4957-b2fe-7e8a8175bb81",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "4.796108000774758"
+        "value": "6.658413722631455"
       }]
     }, {
-      "id": "5aef369d-aeae-44a2-9cf7-693000656fa4",
+      "id": "56832a5d-0f72-4cb7-ad31-d1a59a836fe4",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2532,18 +2577,19 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "1"
+        "value": "9"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "2"
+        "value": "4"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["6935a69c-9c29-4b10-9814-671a9aecda1e", "ec566855-f8ab-4957-b2fe-7e8a8175bb81", "56832a5d-0f72-4cb7-ad31-d1a59a836fe4"]
   }, {
-    "id": "272c71cc-d043-43fe-8dd2-a30b6c0f2df4",
-    "name": "Feld 53",
+    "id": "f7aa17f6-9f82-42d6-a895-2f902cec7d1f",
+    "name": "Feld 73",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2564,31 +2610,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "1118"
+      "value": "1437"
     }, {
       "key": "waterBalance",
-      "value": "-0.9058374412075516"
+      "value": "-0.5754823555941452"
     }],
     "children": [{
-      "id": "d01da665-d645-4a79-89b9-972a235ae3bd",
+      "id": "f632f582-1081-4355-9aca-148748adb3ac",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "63.233117733598554"
+        "value": "43.25920332865714"
       }]
     }, {
-      "id": "a33cd9ce-d82e-4f84-91d5-dcd8e62dd20a",
+      "id": "9468fc16-1917-4c85-b254-804e351c2e5e",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "1.9774137346414162"
+        "value": "1.2735529332175646"
       }]
     }, {
-      "id": "d343be27-04a7-42ee-8c7a-ff3e9129b346",
+      "id": "b6eb332c-b726-4adf-b2eb-4e5d774fc7ea",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2597,7 +2643,7 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "7"
+        "value": "1"
       }, {
         "key": "waterDemandPerPlant",
         "value": "3"
@@ -2605,10 +2651,11 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["f632f582-1081-4355-9aca-148748adb3ac", "9468fc16-1917-4c85-b254-804e351c2e5e", "b6eb332c-b726-4adf-b2eb-4e5d774fc7ea"]
   }, {
-    "id": "e8d41f72-f5af-44b0-9ed4-092e55b1ec88",
-    "name": "Feld 36",
+    "id": "12166e8f-5b4f-44c1-839f-d4f4c273ff0e",
+    "name": "Feld 44",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2627,31 +2674,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "2260"
+      "value": "2138"
     }, {
       "key": "waterBalance",
-      "value": "0.23916095679990584"
+      "value": "-0.9040882567759021"
     }],
     "children": [{
-      "id": "12822121-59d7-4621-99dc-fd369ab26660",
+      "id": "1566806f-fc21-4be0-bc94-0e4f3f1bbb47",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "32.286910371483756"
+        "value": "72.71164251861245"
       }]
     }, {
-      "id": "a096de0c-434c-49cd-b548-f60c40a14168",
+      "id": "6ad88aec-e27d-493d-ac3c-e4ce3e77f11a",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "6.195804783999529"
+        "value": "1.9182348644819598"
       }]
     }, {
-      "id": "d3786a67-a0a5-43c7-b78b-66e786eb6ab0",
+      "id": "88de519b-2feb-4b04-8b41-73b8c982c565",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2663,15 +2710,16 @@
         "value": "5"
       }, {
         "key": "waterDemandPerPlant",
-        "value": "1"
+        "value": "4"
       }, {
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
+    }],
+    "subTwins": ["1566806f-fc21-4be0-bc94-0e4f3f1bbb47", "6ad88aec-e27d-493d-ac3c-e4ce3e77f11a", "88de519b-2feb-4b04-8b41-73b8c982c565"]
   }, {
-    "id": "2e2f4f63-272d-4e90-9296-350815422510",
-    "name": "Feld 22",
+    "id": "ca2f9fa4-f112-4464-90c4-e17e74a56950",
+    "name": "Feld 29",
     "type": "FIELD",
     "semantics": ["agricultural", "crop"],
     "location": {
@@ -2690,31 +2738,31 @@
     },
     "data": [{
       "key": "areaSize",
-      "value": "3657"
+      "value": "1499"
     }, {
       "key": "waterBalance",
-      "value": "-0.2612080991091637"
+      "value": "0.07166744916261956"
     }],
     "children": [{
-      "id": "06f53962-f891-4391-8d0e-394689bac203",
+      "id": "69787cd8-c14d-48ee-82a5-16e0311f585f",
       "name": "humidity",
       "type": "SENSOR",
       "semantics": ["weather", "humidity"],
       "data": [{
         "key": "humidity",
-        "value": "72.36946881874972"
+        "value": "4.415588157333694"
       }]
     }, {
-      "id": "995a8367-b2c6-4d2a-b2b6-a7f8ad70b8bd",
+      "id": "6bfbaa2c-f3fc-4e63-8d5f-4433fa7e5252",
       "name": "rainfall",
       "type": "SENSOR",
       "semantics": ["rainfall"],
       "data": [{
         "key": "rainfall",
-        "value": "6.6491271080175265"
+        "value": "6.430004694975717"
       }]
     }, {
-      "id": "26b380fd-3870-4f05-8e0a-b1cd3cc72e04",
+      "id": "02328e19-3e13-4b31-8597-6eb7f69709f3",
       "name": "crop",
       "type": "CROP",
       "semantics": ["crop"],
@@ -2723,7 +2771,7 @@
         "value": "STRAWBERRY"
       }, {
         "key": "plantsPerSquareMeter",
-        "value": "9"
+        "value": "6"
       }, {
         "key": "waterDemandPerPlant",
         "value": "1"
@@ -2731,6 +2779,8 @@
         "key": "requiresArtificialWatering",
         "value": "true"
       }]
-    }]
-  }]
+    }],
+    "subTwins": ["69787cd8-c14d-48ee-82a5-16e0311f585f", "6bfbaa2c-f3fc-4e63-8d5f-4433fa7e5252", "02328e19-3e13-4b31-8597-6eb7f69709f3"]
+  }],
+  "subTwins": ["5ab2a357-c9b7-4708-84b3-58fb570cbdf6", "f7aa17f6-9f82-42d6-a895-2f902cec7d1f", "12166e8f-5b4f-44c1-839f-d4f4c273ff0e", "ca2f9fa4-f112-4464-90c4-e17e74a56950"]
 }]
