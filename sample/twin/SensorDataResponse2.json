@@ -1,0 +1,15 @@
+// sensordata/{twinId}
+
+{
+  "2017-01-13 14:45:28": {
+    "temperature": "25.1",
+    "humidity": "0.54",
+    "cropType": "STRAWBERRY"
+  },
+  "2017-01-12 14:45:28": {
+    "temperature": "24.6",
+    "humidity": "0.67",
+    "cropType": "STRAWBERRY"
+  }
+
+}
