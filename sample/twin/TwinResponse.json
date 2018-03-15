@@ -63,7 +63,7 @@
           "areaSize": "2500"
         }
       ],
-      "subTwins" : [
+      "subTwins": [
         {
           "twinId": "d3d811db-0895-4065-95a2-b6123d0a4470",
           "name": "cropType",
@@ -82,11 +82,12 @@
           "name": "rainFallAmount",
           "type": "SENSOR",
           "semantic": [
-            "weather", "rainfall"
+            "weather",
+            "rainfall"
           ],
           "data": [
             {
-              "value": "15"
+              "value": "3.2"
             }
           ]
         },
@@ -95,7 +96,8 @@
           "name": "humidity",
           "type": "SENSOR",
           "semantic": [
-            "weather", "humidity"
+            "weather",
+            "humidity"
           ],
           "data": [
             {
@@ -104,8 +106,6 @@
           ]
         }
       ]
-
-
     }
   ]
 }
