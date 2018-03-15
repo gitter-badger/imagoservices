@@ -1,9 +1,13 @@
 // /twin/{twinId}
 {
   "twinId": "8597737e-a262-4f6d-977a-c7cb39709e69",
-  "name": "Pete's Strawberry farm",
-  "type": "AREA",
-  "description": "We gots the red juicyness since 1999",
+  "name": "Gut Clarenhof",
+  "type": "FARM",
+  "semantic": [
+    "farm",
+    "agricultural",
+    "crops"
+  ],
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -31,50 +35,77 @@
       ]
     ]
   },
-  "country": "Germany",
-  "state": "Hesse",
-  "features": [
+  "data": [
     {
-      "sensorId": "d3d811db-0895-4065-95a2-b662cd0a4470",
-      "type": "rainfallProbability",
-      "currentValue": "0.15",
-      "unit": "percent"
+      "description": "We gots the red juicyness since 1999"
     },
     {
-      "sensorId": "a8ee64a7-219b-4a1d-b84c-f66d257ba26e",
-      "type": "temperature",
-      "currentValue": "27",
-      "unit": "celsius"
+      "address": "Gut Clarenhof 1, 50226 Frechen"
     },
     {
-      "sensorId": "d188aeba-58f3-4019-9653-7e739d48a8ef",
-      "type": "cropType",
-      "currentValue": "strawberry",
-      "unit": "enumeration"
+      "state": "Hesse"
     },
     {
-      "sensorId": "8c358d3d-42a0-4269-a279-433754b13f2a",
-      "type": "humidity",
-      "currentValue": "0.65",
-      "unit": "percent"
-    },
+      "areaSize": "25000"
+    }
+  ],
+  "subTwins": [
     {
-      "sensorId": "33685ad7-a2ca-485a-9022-f6b75b740a02",
-      "type": "population",
-      "currentValue": "12",
-      "unit": "absolute"
-    },
-    {
-      "sensorId": "2f93631a-31e6-4ab9-8ff2-3fed106f69b0",
-      "type": "populationGrowthRate",
-      "currentValue": "0.1",
-      "unit": "percent"
-    },
-    {
-      "sensorId": "56053cc3-94c3-4cb0-b6d5-a3ea408ddc1d",
-      "type": "averageIncome",
-      "currentValue": "",
-      "unit": "absolute"
+      "twinId": "d3d811db-0895-4065-95a2-b662cd0a4470",
+      "name": "Feld Erlenberg",
+      "type": "FIELD",
+      "semantic": [
+        "agricultural",
+        "crop"
+      ],
+      "data": [
+        {
+          "areaSize": "2500"
+        }
+      ],
+      "subTwins" : [
+        {
+          "twinId": "d3d811db-0895-4065-95a2-b6123d0a4470",
+          "name": "cropType",
+          "type": "FIELD",
+          "semantic": [
+            "crop"
+          ],
+          "data": [
+            {
+              "cropType": "STRAWBERRY"
+            }
+          ]
+        },
+        {
+          "twinId": "d3d811db-1295-4065-95a2-b6123d0a4470",
+          "name": "rainFallAmount",
+          "type": "SENSOR",
+          "semantic": [
+            "weather", "rainfall"
+          ],
+          "data": [
+            {
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "twinId": "e3d811db-1295-4065-95a2-b6123d0a4470",
+          "name": "humidity",
+          "type": "SENSOR",
+          "semantic": [
+            "weather", "humidity"
+          ],
+          "data": [
+            {
+              "value": "0.70"
+            }
+          ]
+        }
+      ]
+
+
     }
   ]
 }
