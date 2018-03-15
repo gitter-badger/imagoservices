@@ -177,6 +177,76 @@
                 "deprecated": false
             }
         },
+        "/twin/{twin_id}/parents":{
+            "get": {
+                "tags": [
+                    "Digital Twin"
+                ],
+                "description": "Retrieves the digital twins parent twins",
+                "operationId": "twin_parent_retrieve",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "twin_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+        "/twin/{twin_id}/children":{
+            "get": {
+                "tags": [
+                    "Digital Twin"
+                ],
+                "description": "Retrieves the digital twins child twins",
+                "operationId": "twin_children_retrieve",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "twin_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Measurement"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
         "/sensorreading/{twin_id}": {
             "get": {
                 "description": "Fetches sensor data associated to the given twin",
