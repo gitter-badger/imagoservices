@@ -1,4 +1,23 @@
 {
-  "timeOfRecord" : "1521040818", //either unix timestamp or human readable
-  "{key}" : "{value}"
+  "timeOfRecord": "1521040818",
+  //either unix timestamp or human readable:
+  // "timeOfRecord" : "2018-03-14 15:20"
+
+  "features": [
+    {
+      "sensorId": "33685ad7-a2ca-485a-9022-f6b75b740a02",
+      "type" : "temperature",
+      "value": "25.1"
+    },
+    {
+      "sensorId": "33685ad7-a2ca-485a-9022-f6b75b740a01",
+      "type" : "humidity",
+      "value": "0.54"
+    },
+    {
+      "sensorId": "33685ad7-a2ca-485a-9022-f6b75b740a01",
+      "type" : "cropType",
+      "value": "STRAWBERRY"
+    }
+  ]
 }

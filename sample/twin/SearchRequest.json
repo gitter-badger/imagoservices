@@ -6,6 +6,7 @@
     "cropType"
   ],
 
+  //filtering optional?
   "filter": {
     "{featureName}" : "{valueMin}:{valueMax}",
     "temperature" : "25:35"
