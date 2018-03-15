@@ -1,0 +1,2026 @@
+[{
+  "twinId": "08e351a3-bc98-4231-ab7a-7395548b2f9f",
+  "name": "Farm 1",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Beethovenstrasse 30",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100008740"
+  },
+  "children": [{
+    "twinId": "ec6ec552-6b60-4d1b-9e97-2e62d2bb4449",
+    "name": "Feld 88",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8566769, 52.27535],
+          [9.8672984, 52.2777001],
+          [9.8656462, 52.2802207],
+          [9.8550461, 52.2778707],
+          [9.8566769, 52.27535]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1302"
+    },
+    "children": [{
+      "twinId": "123a179c-5526-40f9-bc5f-bd9cea4b6a70",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "80.37709872487464"
+      }
+    }, {
+      "twinId": "e91739a9-5c14-420e-8e19-f3eaf6d793a9",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "2.9220311706895012"
+      }
+    }, {
+      "twinId": "89fe0f52-f2f0-4403-918c-5d111e7befdf",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "11c62387-5883-44be-8b81-e1d782708041",
+    "name": "Feld 19",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8584567, 52.2787777],
+          [9.8576842, 52.280143],
+          [9.8565684, 52.2799986],
+          [9.8564182, 52.2800774],
+          [9.8537146, 52.2798542],
+          [9.8549591, 52.2779244],
+          [9.8584567, 52.2787777]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3148"
+    },
+    "children": [{
+      "twinId": "2b2ed868-2f29-42a8-a89a-0ab1659fbabc",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "0.6137710618427827"
+      }
+    }, {
+      "twinId": "caebca8a-4e91-4d4b-8457-3d5204c3bb65",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "2.5060582931957454"
+      }
+    }, {
+      "twinId": "0929aa4d-c088-46db-8a47-0823513ae356",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "584fbcac-e5a7-4033-99b2-b4bb475d79b4",
+    "name": "Feld 21",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8617465, 52.282337],
+          [9.8621328, 52.283886],
+          [9.8577554, 52.2841485],
+          [9.8571546, 52.2817331],
+          [9.8617465, 52.282337]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1211"
+    },
+    "children": [{
+      "twinId": "c7ac691c-8a8f-4e65-803f-08390b424366",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "73.8457432241352"
+      }
+    }, {
+      "twinId": "006e349d-7750-407d-b00e-6e4ff410aecb",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "2.0873262799325265"
+      }
+    }, {
+      "twinId": "ec47c1e1-2b99-4860-8112-a9fbb011e176",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "538fbccb-eb47-4cb9-bb77-8926bfd40d07",
+    "name": "Feld 14",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8645994, 52.2838473],
+          [9.8634622, 52.2851862],
+          [9.8621318, 52.2872076],
+          [9.8584625, 52.2874439],
+          [9.8578188, 52.284543],
+          [9.8583338, 52.284228],
+          [9.8645994, 52.2838473]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3243"
+    },
+    "children": [{
+      "twinId": "d9c35a0b-e932-4506-9ce0-a193fbdf0b0f",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "44.571419954053624"
+      }
+    }, {
+      "twinId": "aab82046-5206-4dd7-b0fe-3039055fcdfd",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "2.4993370163628867"
+      }
+    }, {
+      "twinId": "a55dfbc4-0cb2-4527-82d0-c871bb2761a5",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}, {
+  "twinId": "c0ce8ee8-86c2-4a68-9c8a-e22f4aff0e67",
+  "name": "Farm 2",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Wagnerstrasse 34",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100008088"
+  },
+  "children": [{
+    "twinId": "34fd8b72-585f-486f-b739-f662909f3428",
+    "name": "Feld 37",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8374844, 52.2889592],
+          [9.8374844, 52.2891364],
+          [9.8376238, 52.289307],
+          [9.8364651, 52.2906392],
+          [9.8351026, 52.2896351],
+          [9.8361862, 52.2883357],
+          [9.8374844, 52.2889592]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1113"
+    },
+    "children": [{
+      "twinId": "03636b04-b880-4fb8-b423-5e38ffb453b6",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "34.19764763809647"
+      }
+    }, {
+      "twinId": "f6763098-4310-4c77-a68d-7e545a449440",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "5.817445460928302"
+      }
+    }, {
+      "twinId": "ff09a270-7be7-4774-904a-340dd58f1ca3",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "a3dc29d6-dbef-4d96-8b4e-e43cc4f1749a",
+    "name": "Feld 58",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8384181, 52.2892311],
+          [9.842244, 52.2905072],
+          [9.8425585, 52.2905936],
+          [9.8429668, 52.2906129],
+          [9.8439753, 52.290626],
+          [9.8453991, 52.2941088],
+          [9.8445054, 52.2943032],
+          [9.8435216, 52.2944041],
+          [9.841884, 52.2937273],
+          [9.8406202, 52.2929012],
+          [9.8399765, 52.2921663],
+          [9.838044, 52.2913413],
+          [9.8372272, 52.2910882],
+          [9.8366638, 52.2907785],
+          [9.8379353, 52.2892507],
+          [9.8384181, 52.2892311]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3507"
+    },
+    "children": [{
+      "twinId": "7a6a6cbf-2c84-45de-a1e5-6c68bba7016d",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "80.10763512361794"
+      }
+    }, {
+      "twinId": "d9619716-4736-4c66-86fe-c508cbc2cec3",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "5.864254947088882"
+      }
+    }, {
+      "twinId": "f3e84e46-4d1e-4209-960c-0dbd6b236b9b",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "5102a3c5-bec2-4f18-8fbf-2922f5d75059",
+    "name": "Feld 30",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8439921, 52.2905929],
+          [9.8482836, 52.2904879],
+          [9.8495067, 52.2936377],
+          [9.8474835, 52.2935215],
+          [9.8465241, 52.2940052],
+          [9.8454297, 52.2940839],
+          [9.8439921, 52.2905929]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3265"
+    },
+    "children": [{
+      "twinId": "6fab7543-aaf2-4a0e-87de-646d2541b02b",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "92.57800279441742"
+      }
+    }, {
+      "twinId": "5a533957-5575-40d5-b8bc-f9fe4956139d",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "2.4159430986398247"
+      }
+    }, {
+      "twinId": "3ad56bb6-a32d-4a4d-afb6-0894ef19a31e",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "ae4a8d1d-b6d3-4a33-b601-88dad908a16b",
+    "name": "Feld 74",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8449147, 52.2953438],
+          [9.8441208, 52.296223],
+          [9.8373979, 52.2952506],
+          [9.8350871, 52.2946482],
+          [9.8376191, 52.2917478],
+          [9.8402799, 52.2939264],
+          [9.8403872, 52.2942283],
+          [9.8416317, 52.2947532],
+          [9.8448933, 52.2953438]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3247"
+    },
+    "children": [{
+      "twinId": "09c4558a-997b-4c8a-91d5-0b69bca8e2f7",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "87.73181623021135"
+      }
+    }, {
+      "twinId": "fab19169-7948-4144-a5fe-caf08066e895",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "5.790360036303768"
+      }
+    }, {
+      "twinId": "a50457fa-dca2-41e8-9418-bf5fdf3d4fa5",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}, {
+  "twinId": "ca315415-70f2-4f8d-9392-68be2e0521a1",
+  "name": "Farm 3",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Bachstrasse 88",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100008938"
+  },
+  "children": [{
+    "twinId": "3669461f-ee0a-480f-ac9f-f250b7a02837",
+    "name": "Feld 69",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8565022, 52.2977084],
+          [9.8555796, 52.2991125],
+          [9.854349, 52.2987055],
+          [9.8533076, 52.2981595],
+          [9.8517386, 52.2969866],
+          [9.8529732, 52.2969581],
+          [9.8565022, 52.2977084]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3748"
+    },
+    "children": [{
+      "twinId": "93947cdf-a493-4289-b09a-2a30d6773107",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "60.13732131699256"
+      }
+    }, {
+      "twinId": "739acaa3-438f-4ea7-9405-207e04d27655",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "2.5106920217476656"
+      }
+    }, {
+      "twinId": "d273b848-1582-45e5-8bc6-3114d977a880",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "0496e16e-9d60-4d16-9c4c-48f443a20d2c",
+    "name": "Feld 9",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8332786, 52.3090191],
+          [9.8331035, 52.310014],
+          [9.8333215, 52.310659],
+          [9.831048, 52.310833],
+          [9.8286652, 52.3108427],
+          [9.8275426, 52.3108167],
+          [9.8263263, 52.3100031],
+          [9.8290514, 52.3084025],
+          [9.8305106, 52.3084681],
+          [9.8312187, 52.3089667],
+          [9.8332786, 52.3090191]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1334"
+    },
+    "children": [{
+      "twinId": "ee2184e9-5c2f-4895-9d24-87b033850c10",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "4.607691236283973"
+      }
+    }, {
+      "twinId": "2be3f9e4-d20a-4949-920b-c823e70700f7",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "2.6199934223543244"
+      }
+    }, {
+      "twinId": "fd83165f-132f-488b-8dba-3fbe4098072c",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "522c4aef-77f6-4b35-a799-6edca5978104",
+    "name": "Feld 95",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8349633, 52.3108451],
+          [9.8354783, 52.3136918],
+          [9.831058, 52.3136786],
+          [9.8306503, 52.311055],
+          [9.8349633, 52.3108451]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1196"
+    },
+    "children": [{
+      "twinId": "558adb11-0874-43e3-bc69-fd9acfc3c423",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "6.751990941845132"
+      }
+    }, {
+      "twinId": "6a17f00e-ebb3-46e5-accd-dce330178ec2",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "6.878504383952708"
+      }
+    }, {
+      "twinId": "674ee579-8c39-47e8-8908-07fec3e8f69f",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "20358ed0-ff5e-4cea-85f8-0a1596741f55",
+    "name": "Feld 47",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8356728, 52.3067734],
+          [9.8356728, 52.3060649],
+          [9.8385696, 52.3059075],
+          [9.838634, 52.3060256],
+          [9.8400287, 52.30596],
+          [9.8400931, 52.3058157],
+          [9.8425607, 52.3057107],
+          [9.8428611, 52.3059862],
+          [9.8437838, 52.3060125],
+          [9.8435624, 52.3065951],
+          [9.8435692, 52.3070227],
+          [9.8356728, 52.3067734]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1649"
+    },
+    "children": [{
+      "twinId": "d9e78d00-3590-403c-bdb1-27882fba6e02",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "3.2513680062734807"
+      }
+    }, {
+      "twinId": "da0282eb-2fec-411c-a403-138cab8d1edc",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "1.0004567113983902"
+      }
+    }, {
+      "twinId": "a17de4c5-7b38-4e68-b311-a99412e67ac2",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}, {
+  "twinId": "a841e2e2-681b-4a45-b27b-ca9a62059ce4",
+  "name": "Farm 4",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Beethovenstrasse 60",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100002278"
+  },
+  "children": [{
+    "twinId": "460b212b-3366-4792-a3ff-b3facc825dbf",
+    "name": "Feld 33",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8994327, 52.2448168],
+          [9.901793, 52.24818],
+          [9.8972225, 52.2484953],
+          [9.8968577, 52.2449744],
+          [9.8994327, 52.2448168]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3582"
+    },
+    "children": [{
+      "twinId": "af0ba2b1-1a0b-4f91-81b1-c204d5d80836",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "79.60551948613006"
+      }
+    }, {
+      "twinId": "1f10621b-cb97-490a-a5fc-3f57b8b02d2c",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "5.831941202059432"
+      }
+    }, {
+      "twinId": "a083f995-6877-4e12-a2d9-9b52c26a3eef",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "9a08d465-59fb-4f2b-b605-266e82874f94",
+    "name": "Feld 28",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.9040906, 52.2481227],
+          [9.9068371, 52.2504085],
+          [9.9060003, 52.2506581],
+          [9.9061076, 52.250842],
+          [9.9041979, 52.251512],
+          [9.9029962, 52.2515382],
+          [9.9036185, 52.2481489],
+          [9.9040906, 52.2481227]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3436"
+    },
+    "children": [{
+      "twinId": "506f7916-d917-4f97-9148-06b3560e26cc",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "17.874623908770438"
+      }
+    }, {
+      "twinId": "c545fd15-d5d8-46d5-b458-2778174236ec",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "3.450949887487052"
+      }
+    }, {
+      "twinId": "c8708034-f9c3-4c06-bed9-eeb731b1f59e",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "86a111e1-3950-47b1-a6c9-903175714d60",
+    "name": "Feld 66",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.9001424, 52.2484117],
+          [9.8996488, 52.2516827],
+          [9.8964302, 52.2517484],
+          [9.8963777, 52.2537775],
+          [9.8938028, 52.2537775],
+          [9.8942898, 52.2565864],
+          [9.889655, 52.256547],
+          [9.8894619, 52.2547606],
+          [9.8940168, 52.2486062],
+          [9.8971925, 52.2485931],
+          [9.9001424, 52.2484117]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1924"
+    },
+    "children": [{
+      "twinId": "5c060747-eb73-4863-b1c9-ab7ab47ef45b",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "81.5886516629292"
+      }
+    }, {
+      "twinId": "e27e6c81-28ee-48fb-a2f4-83dde4030c80",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "1.7560641650139468"
+      }
+    }, {
+      "twinId": "57d42fdf-fcbe-4456-8ee1-a1cda2aa2ad5",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "29963cd8-23ad-4f9f-b686-064ce78c823d",
+    "name": "Feld 4",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.9239952, 52.2477162],
+          [9.9185879, 52.2457193],
+          [9.9273062, 52.238707],
+          [9.9278855, 52.2386151],
+          [9.9286795, 52.240205],
+          [9.9288297, 52.2402575],
+          [9.9239952, 52.2477162]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2034"
+    },
+    "children": [{
+      "twinId": "13344115-bf50-47ab-a4e0-d98bd2288fc0",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "38.07006542890622"
+      }
+    }, {
+      "twinId": "c8bf7503-d156-4e3a-bf37-1f3bfdabc48d",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "1.8542939727938226"
+      }
+    }, {
+      "twinId": "ee9014d6-9962-49e1-adc7-38d502f94f6e",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}, {
+  "twinId": "3d40a653-bb8f-4ba0-bcf9-c10dc1c68ba9",
+  "name": "Farm 5",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Wagnerstrasse 83",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100004667"
+  },
+  "children": [{
+    "twinId": "fdd7e462-df22-4fd5-82dd-995c2fdaa03f",
+    "name": "Feld 92",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.892695, 52.2239577],
+          [9.898746, 52.2245623],
+          [9.8970509, 52.2290311],
+          [9.8913431, 52.2275459],
+          [9.892695, 52.2239577]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3282"
+    },
+    "children": [{
+      "twinId": "bdd4d2c3-cd68-4015-bb21-5e7f463b053d",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "24.77444361535508"
+      }
+    }, {
+      "twinId": "4859642f-2a37-4299-95e4-184cd7a61828",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "2.8449648123493527"
+      }
+    }, {
+      "twinId": "9c337696-6bca-4c89-8f29-33fffb79e1b6",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "6251386e-76ef-4318-8828-3c02b742139b",
+    "name": "Feld 72",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8898315, 52.2272845],
+          [9.8893809, 52.2308331],
+          [9.8869985, 52.2309271],
+          [9.8846173, 52.2307148],
+          [9.8869133, 52.2265879],
+          [9.8898315, 52.2272845]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2124"
+    },
+    "children": [{
+      "twinId": "48cacce3-fb96-4259-af8e-a488582da43e",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "96.77909899354675"
+      }
+    }, {
+      "twinId": "25af0d80-1dbe-484e-9b15-251b5e5a8bc2",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "3.773218285312069"
+      }
+    }, {
+      "twinId": "5c2d9bdd-bb63-4fc0-8842-46e8dbd945a2",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "f493bd0c-50d4-4bc5-a739-0b294a501a4f",
+    "name": "Feld 35",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.8927662, 52.2216302],
+          [9.8879168, 52.2205523],
+          [9.8898909, 52.2171343],
+          [9.8956845, 52.2183964],
+          [9.8939464, 52.2207363],
+          [9.8927662, 52.2216302]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1139"
+    },
+    "children": [{
+      "twinId": "991d1f5d-a402-4a82-9b4f-d40691d0b17b",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "53.30825425714202"
+      }
+    }, {
+      "twinId": "5ac37c4b-2a78-4498-a109-24033ca8920b",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "1.1296578734833347"
+      }
+    }, {
+      "twinId": "3543c450-a88b-4072-aa4e-f5ebcd7e4247",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "8d79e183-310f-411c-b4d2-14e5230edaa1",
+    "name": "Feld 39",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.9008929, 52.2182265],
+          [9.8975884, 52.2169513],
+          [9.8990476, 52.2155972],
+          [9.902116, 52.2167278],
+          [9.9008929, 52.2182265]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3318"
+    },
+    "children": [{
+      "twinId": "d018c2dc-e5ab-4bc5-9283-6be3cc799353",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "39.525363660724246"
+      }
+    }, {
+      "twinId": "a7c8c3e2-f410-48e7-af0e-f2600a32668f",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "3.539834297666637"
+      }
+    }, {
+      "twinId": "d659da25-eed5-4ee9-870e-767f3a714e2f",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}, {
+  "twinId": "45805c94-d5ab-4fdf-a83e-6f6c86150bb0",
+  "name": "Farm 6",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Brahmsstrasse 51",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100005175"
+  },
+  "children": [{
+    "twinId": "d24c4871-8a16-4ae4-b180-09bfcd79ed2e",
+    "name": "Feld 2",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.91917, 52.2505792],
+          [9.9199639, 52.2507171],
+          [9.9212621, 52.2515644],
+          [9.9200497, 52.2536596],
+          [9.9152647, 52.2524249],
+          [9.9156617, 52.2515382],
+          [9.918376, 52.2518666],
+          [9.91917, 52.2505792]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3877"
+    },
+    "children": [{
+      "twinId": "f5babd5d-776f-4206-91b7-449aaaa8695e",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "26.55918269089208"
+      }
+    }, {
+      "twinId": "d5d98abf-65d6-4a33-886f-fd820f2dd5db",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "6.425125167715259"
+      }
+    }, {
+      "twinId": "f617ed29-3b89-4c46-b97c-2ccc0dfcabaa",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "d5ef9dd6-12d0-44a9-aead-983dd639ffa2",
+    "name": "Feld 22",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.9191706, 52.2550929],
+          [9.9179828, 52.2576707],
+          [9.9173605, 52.2591943],
+          [9.9095567, 52.257194],
+          [9.9098572, 52.2566423],
+          [9.9095782, 52.2565044],
+          [9.9101897, 52.2557032],
+          [9.9107262, 52.255828],
+          [9.91093, 52.2554471],
+          [9.9103936, 52.2553091],
+          [9.9104258, 52.2551909],
+          [9.91384, 52.2537277],
+          [9.9191706, 52.2550929]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2985"
+    },
+    "children": [{
+      "twinId": "218f9374-ef37-478f-a439-b0b4c801809d",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "61.36966338644416"
+      }
+    }, {
+      "twinId": "c4357ed4-6ba3-49e2-adf1-4196be6d5462",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "4.328401367678196"
+      }
+    }, {
+      "twinId": "343a51c7-9282-46bf-ade6-a17a2b84319c",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "80c1dc7b-ea9f-491f-85b2-6a552f5c8cf3",
+    "name": "Feld 29",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.92525, 52.253596],
+          [9.9281682, 52.2504959],
+          [9.9334039, 52.251862],
+          [9.9345626, 52.2517044],
+          [9.9302711, 52.2559866],
+          [9.92525, 52.253596]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1767"
+    },
+    "children": [{
+      "twinId": "6fe0f4e1-82f5-4b69-9d88-1a09c67a4085",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "88.13703283056437"
+      }
+    }, {
+      "twinId": "a09497a7-8e67-48d9-8210-4a2fcc42731f",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "0.7716081527384333"
+      }
+    }, {
+      "twinId": "423444e3-641a-4969-ac99-18c582d17fa8",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "ec1c1e76-eb19-44ae-9534-c0134b175d2f",
+    "name": "Feld 34",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.9228048, 52.2420883],
+          [9.9180841, 52.2458985],
+          [9.9162388, 52.2444796],
+          [9.9192429, 52.2405905]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2382"
+    },
+    "children": [{
+      "twinId": "a8e7269c-7db7-4c48-94ef-a0ceaf8fc5dd",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "37.97464008634881"
+      }
+    }, {
+      "twinId": "0d51923a-6958-48ef-ace4-5747e6385096",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "0.3990747323959539"
+      }
+    }, {
+      "twinId": "50382128-b891-4a81-bed3-74f568f3321a",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}, {
+  "twinId": "87bf7636-18c2-4eaf-bf1c-88519dab9968",
+  "name": "Farm 7",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Brahmsstrasse 73",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100006589"
+  },
+  "children": [{
+    "twinId": "bd8519e8-75f5-4a92-a2f6-ce641c06f913",
+    "name": "Feld 69",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7050476, 52.2778473],
+          [9.7062063, 52.2763243],
+          [9.7047901, 52.2759305],
+          [9.7074938, 52.2720178],
+          [9.7104979, 52.2727531],
+          [9.7065926, 52.2784774],
+          [9.7050476, 52.2778473]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2124"
+    },
+    "children": [{
+      "twinId": "e8ff3db6-0fd3-48fb-b12b-ba8a02f8916b",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "19.25022811014937"
+      }
+    }, {
+      "twinId": "cb4f20e2-8337-452f-aff4-e61ec5634994",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "6.048590776131158"
+      }
+    }, {
+      "twinId": "44fbab08-5b58-4325-87c6-c01e516bb3ed",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "be155948-a354-4fe8-b8f6-de74b46f0982",
+    "name": "Feld 1",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7081804, 52.2682099],
+          [9.7064638, 52.2716502],
+          [9.7006273, 52.2703371],
+          [9.7016573, 52.2681574],
+          [9.7042322, 52.2683412],
+          [9.7046614, 52.2672644],
+          [9.7081804, 52.2682099]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1169"
+    },
+    "children": [{
+      "twinId": "9d8c7046-afa1-4525-8461-68472263c7fd",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "22.230641786949633"
+      }
+    }, {
+      "twinId": "f6af8d6f-2295-411f-b813-ad4c3b9a5d75",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "4.682406288758379"
+      }
+    }, {
+      "twinId": "e2af2f0d-f47e-4944-9b8c-7b2c5f909261",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "9c99baa2-e81f-483a-8282-896fc457b0e2",
+    "name": "Feld 30",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.6933746, 52.2739611],
+          [9.6923447, 52.2773746],
+          [9.6891689, 52.2766919],
+          [9.6895552, 52.2749326],
+          [9.6909285, 52.2750902],
+          [9.6916151, 52.2732783],
+          [9.6933746, 52.2739611]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1151"
+    },
+    "children": [{
+      "twinId": "f1c55ccd-086c-453a-a66d-376b76568dad",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "58.58875496006607"
+      }
+    }, {
+      "twinId": "1498d613-6422-43de-8f37-d44274d8e57d",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "6.160369874189697"
+      }
+    }, {
+      "twinId": "9d0a83ef-4324-4003-a045-be854d397fbe",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "22c54eb8-23fa-45a2-8f9c-c7e5c6e1ff37",
+    "name": "Feld 39",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.6915293, 52.2732521],
+          [9.6907997, 52.2751165],
+          [9.6886539, 52.2747751],
+          [9.6886969, 52.2735147],
+          [9.6904564, 52.2729632],
+          [9.6915293, 52.2732521]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3783"
+    },
+    "children": [{
+      "twinId": "22285306-cb5b-408f-809b-c3408d1fd416",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "51.34476064383791"
+      }
+    }, {
+      "twinId": "099c028b-15ea-4c09-aea0-17fd71ae9cc4",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "4.7721505999343945"
+      }
+    }, {
+      "twinId": "04ee6f6e-5dd2-47a8-9528-a0e8184037ff",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}, {
+  "twinId": "7e5642f9-eeb2-40dc-ab0e-6ca0d7b851c0",
+  "name": "Farm 8",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Bachstrasse 33",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100004391"
+  },
+  "children": [{
+    "twinId": "7c88de93-d029-4b1d-9663-a2917b6450aa",
+    "name": "Feld 41",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7223425, 52.2859993],
+          [9.7209907, 52.2890707],
+          [9.7189307, 52.2880732],
+          [9.7199607, 52.2859206],
+          [9.72054, 52.2859993],
+          [9.7209477, 52.2852118],
+          [9.7216129, 52.2853299],
+          [9.7214627, 52.2858156],
+          [9.7223425, 52.2859993]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2700"
+    },
+    "children": [{
+      "twinId": "dbcb1c67-606c-4245-8965-c6a6714c7b51",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "22.43552234869255"
+      }
+    }, {
+      "twinId": "b84d6979-24eb-47f0-b5df-848f409fbe07",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "2.400277080653173"
+      }
+    }, {
+      "twinId": "d01533e0-cd01-4750-a4db-f988f28dbcf0",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "af6071d3-7923-4819-acce-29dba63585f1",
+    "name": "Feld 92",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7237802, 52.2864062],
+          [9.725368, 52.2871282],
+          [9.7313333, 52.2889657],
+          [9.7300458, 52.2918926],
+          [9.7260547, 52.2914857],
+          [9.7222352, 52.2896745],
+          [9.7237802, 52.2864062]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2531"
+    },
+    "children": [{
+      "twinId": "78ee0977-44c7-48d0-8de7-a88883d62242",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "93.83216078467781"
+      }
+    }, {
+      "twinId": "67d8aa1a-64dc-4595-8eaa-524bd99dbcca",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "5.213561319820669"
+      }
+    }, {
+      "twinId": "c48a8c89-bc9a-465d-92d7-652167c8e532",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "df2e17d9-19d0-473e-9b6a-54b796b3e307",
+    "name": "Feld 46",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7148967, 52.2928375],
+          [9.7246385, 52.2943467],
+          [9.7238231, 52.2965383],
+          [9.7203684, 52.2969845],
+          [9.7138238, 52.2961315],
+          [9.7148967, 52.2928375]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1254"
+    },
+    "children": [{
+      "twinId": "64e4eef9-1db8-4465-b0e5-a77aecff4454",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "40.20321349088525"
+      }
+    }, {
+      "twinId": "e48601e6-3603-418c-9a91-11309d69fa6f",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "1.875596864316647"
+      }
+    }, {
+      "twinId": "e12e6120-fd88-461f-a827-690f0361310b",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "c4dd56eb-1e67-4b4d-bba7-e5a182bd9679",
+    "name": "Feld 71",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7135234, 52.295974],
+          [9.7104335, 52.2950029],
+          [9.7103047, 52.294583],
+          [9.7071719, 52.2929031],
+          [9.70788, 52.2918401],
+          [9.7145963, 52.2928375],
+          [9.7135234, 52.295974]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3626"
+    },
+    "children": [{
+      "twinId": "be5f4131-5141-4e59-8562-a823ac2164b4",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "89.5699875104109"
+      }
+    }, {
+      "twinId": "6834c7c4-eaa2-40e3-b725-e6ac7b44ac6c",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "3.6976538589839096"
+      }
+    }, {
+      "twinId": "dc7e5a1d-ee55-4320-9b85-eb7d8add3e9b",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}, {
+  "twinId": "10c4b263-1fc1-471a-a27c-5f10526eb4ab",
+  "name": "Farm 9",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Wagnerstrasse 78",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100004609"
+  },
+  "children": [{
+    "twinId": "807c138e-bf6c-432a-b8a7-d13852c2f0be",
+    "name": "Feld 61",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7636271, 52.2916563],
+          [9.7624469, 52.292365],
+          [9.7607946, 52.2929294],
+          [9.7605586, 52.290987],
+          [9.7636271, 52.2916563]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1137"
+    },
+    "children": [{
+      "twinId": "d197b591-7b85-4a24-a714-a7e90c9931d7",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "1.2994065367435637"
+      }
+    }, {
+      "twinId": "d0c5d2eb-f026-4233-b11a-e36f2c9b9719",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "3.954699294570295"
+      }
+    }, {
+      "twinId": "e03d9ac2-3280-4f52-bec4-a1c09132d1ab",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "4f3556a6-efb6-4b72-8486-2eb70ebfdc1c",
+    "name": "Feld 1",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7636914, 52.2915513],
+          [9.7616744, 52.2910657],
+          [9.76161, 52.2874432],
+          [9.7648287, 52.2875088],
+          [9.7650433, 52.2906588],
+          [9.7636914, 52.2915513]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2470"
+    },
+    "children": [{
+      "twinId": "6b03ca1f-f276-4dba-b6bf-2b17f7ba4a43",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "91.58279322314598"
+      }
+    }, {
+      "twinId": "8852ff32-bf49-4f6b-a0c2-e15cc2283ae4",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "6.2289201371674165"
+      }
+    }, {
+      "twinId": "aec2ffd8-cfe3-434c-9b98-d2e1aff23d1d",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "aa5c7e5a-c68e-4056-92d3-4ed553943f00",
+    "name": "Feld 3",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.747448, 52.2852118],
+          [9.7487354, 52.2780836],
+          [9.7582197, 52.2797115],
+          [9.7578335, 52.2806042],
+          [9.7563314, 52.2846604],
+          [9.7555375, 52.2858549],
+          [9.7549367, 52.286695],
+          [9.747448, 52.2852118]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1909"
+    },
+    "children": [{
+      "twinId": "fa9e611b-419f-4af4-a270-4e77005d31ae",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "55.617408414586976"
+      }
+    }, {
+      "twinId": "f37c4046-f9e7-4419-8fc4-4b32c02fab83",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "0.1770017571301361"
+      }
+    }, {
+      "twinId": "310ceed1-bdff-47f4-94b8-d524b9b786eb",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "ff40d31c-9c54-49e7-8604-ed4422e23f74",
+    "name": "Feld 4",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7795916, 52.286275],
+          [9.782424, 52.2879288],
+          [9.7846556, 52.2858812],
+          [9.7858143, 52.2868788],
+          [9.7887325, 52.2878501],
+          [9.7823811, 52.29205],
+          [9.7782612, 52.2896876],
+          [9.7795916, 52.286275]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3377"
+    },
+    "children": [{
+      "twinId": "e1349747-0cf2-4471-ad51-4d07c6f2c7ef",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "30.595305557018904"
+      }
+    }, {
+      "twinId": "4b1eef95-fc30-4e58-bc44-7d2adc7c70c8",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "5.669107237097425"
+      }
+    }, {
+      "twinId": "94862f4b-44d0-400e-bfb0-53b1c05ffc6f",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}, {
+  "twinId": "06e4289c-5632-4196-9e26-7dbb867135ce",
+  "name": "Farm 10",
+  "type": "FARM",
+  "semantics": ["farm", "agriculture", "crops"],
+  "data": {
+    "address": "Gluckstrasse 39",
+    "description": "one",
+    "state": "Hessen",
+    "areaSize": "100001168"
+  },
+  "children": [{
+    "twinId": "42f7d1c4-7153-4bfb-8c77-8b6ddbd8f7af",
+    "name": "Feld 47",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7873592, 52.2804992],
+          [9.7869086, 52.280171],
+          [9.7862649, 52.2801578],
+          [9.7858572, 52.2796721],
+          [9.7853637, 52.2797246],
+          [9.7853208, 52.280381],
+          [9.7826171, 52.2800659],
+          [9.7825527, 52.2798953],
+          [9.780364, 52.2796458],
+          [9.7817802, 52.276797],
+          [9.7847629, 52.2768889],
+          [9.7848916, 52.2762587],
+          [9.7865009, 52.2764162],
+          [9.7883892, 52.2772302],
+          [9.7898698, 52.2788188],
+          [9.79002, 52.2802629],
+          [9.7873592, 52.2804992]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2114"
+    },
+    "children": [{
+      "twinId": "398484df-678e-4413-9887-c9873964b363",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "26.68308007097926"
+      }
+    }, {
+      "twinId": "6d93adea-4b15-43fa-b23d-3ce016c0776a",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "6.053220706137043"
+      }
+    }, {
+      "twinId": "be356d53-cbc8-4321-9132-ab956d6d163a",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "24659b14-e78c-4a80-97e3-e4fa54b217e0",
+    "name": "Feld 53",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7795486, 52.2806173],
+          [9.7793555, 52.2820482],
+          [9.7801924, 52.282127],
+          [9.7800851, 52.2828621],
+          [9.7809863, 52.2829277],
+          [9.7795701, 52.2836103],
+          [9.7738194, 52.2830327],
+          [9.7748923, 52.2801578],
+          [9.7795486, 52.2806173]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "1540"
+    },
+    "children": [{
+      "twinId": "3706bf1c-b659-42ee-afb7-7c39a7f1b881",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "83.65499126816314"
+      }
+    }, {
+      "twinId": "24faa730-608b-4ecb-81c5-de600c01275c",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "5.785693854330772"
+      }
+    }, {
+      "twinId": "a81ba2c6-edcf-4723-b072-7dcc3ca098e4",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "04b160bb-5aae-4834-aefd-647061bfb2aa",
+    "name": "Feld 92",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7714806, 52.2844898],
+          [9.7715235, 52.283479],
+          [9.773519, 52.2837547],
+          [9.7734547, 52.2842273],
+          [9.7771454, 52.2847261],
+          [9.7763515, 52.2851199],
+          [9.7714806, 52.2844898]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "3352"
+    },
+    "children": [{
+      "twinId": "811d68c0-3d16-4b92-87a9-3e49a6993028",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "87.60261377518749"
+      }
+    }, {
+      "twinId": "5f49693a-f393-4bc6-bf31-2846b7020120",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "0.9084193635007833"
+      }
+    }, {
+      "twinId": "54a60327-5e9a-4856-a0b6-b3decac9eea8",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }, {
+    "twinId": "ee2a1a92-b509-44bb-aff6-0aa784e04733",
+    "name": "Feld 3",
+    "type": "FIELD",
+    "semantics": ["agricultural", "crop"],
+    "location": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [9.7636056, 52.2787531],
+          [9.7657943, 52.2733571],
+          [9.7695494, 52.2727137],
+          [9.7723818, 52.2731076],
+          [9.7696137, 52.2795277],
+          [9.7663522, 52.2792651],
+          [9.7636056, 52.2787531]
+        ]
+      ]
+    },
+    "data": {
+      "areaSize": "2751"
+    },
+    "children": [{
+      "twinId": "a0abebe7-a034-42a3-9fbe-251652d6be02",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "humidity"],
+      "data": {
+        "value": "93.92854262553564"
+      }
+    }, {
+      "twinId": "5c4b3cc2-ea6e-42e5-b7de-34c3142ebe9c",
+      "name": "crop",
+      "type": "SENSOR",
+      "semantics": ["weather", "rainfall"],
+      "data": {
+        "value": "5.489459819326766"
+      }
+    }, {
+      "twinId": "f00bf447-4591-4d5a-95c0-8c455b128dbb",
+      "name": "crop",
+      "type": "CROP",
+      "semantics": ["crop"],
+      "data": {
+        "cropType": "STRAWBERRY"
+      }
+    }]
+  }]
+}]
