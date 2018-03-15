@@ -12,17 +12,18 @@ module.exports = {
     get: function twin_getAll(req, res, next) {
         log.debug('This is the get twin call');
         let status = 200;
-        db.queryMissionEntries().then(function (result) {
-            res.json(result);
+        db.queryAllTwins().then(function (result) {
             res.status(status).send(result);
-            next();
         }).catch(function (error) {
-            // error
-            res.json(error);
-            next(error);
+            res.status(500).send(error);
         });
-    }, post: function mission_post(req, res, next) {
-        let status = 201;
+    }, post: function twin_post(req, res, next) {
+        let status = 200;
+        db.createTwin(req.body).then(function(result){
+            res.status(status).send(result);
+        }).catch(function(err){
+            res.status(500).send(err);
+        });
     }
 };
  

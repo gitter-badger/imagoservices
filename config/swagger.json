@@ -30,52 +30,7 @@
                     "200": {}
                 },
                 "deprecated": false
-            }
-        },
-        "/twin/{latitude}/{longitude}/{radius}": {
-            "get": {
-                "description":"Fetches all twins within the given radius around the given lat/lon location",
-                "tags": [
-                    "Digital Twin"
-                ],
-                "parameters": [
-                    {
-                        "name": "latitude",
-                        "in": "path",
-                        "required": true,
-                        "type": "number",
-                        "format": "double"
-                    },
-                    {
-                        "name": "longitude",
-                        "in": "path",
-                        "required": true,
-                        "type": "number",
-                        "format": "double"
-                    },
-                    {
-                        "name": "radius",
-                        "in": "path",
-                        "required": true,
-                        "type": "integer",
-                        "format": "int32"
-                    }
-                ],
-                "operationId": "twins_get",
-                "consumes": [
-                    "application/json",
-                    "text/json"
-                ],
-                "produces": [
-                    "application/json",
-                    "text/json"
-                ],
-                "responses": {
-                    "200": {}
-                },
-                "deprecated": false
-            },
-            "post": {
+            },"post": {
                 "tags": [
                     "Digital Twin"
                 ],
@@ -109,6 +64,50 @@
                 "deprecated": false
             }
         },
+        "/twin/{latitude}/{longitude}/{radius}": {
+            "get": {
+                "description":"Fetches all twins within the given radius around the given lat/lon location",
+                "tags": [
+                    "Digital Twin"
+                ],
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32"
+                    }
+                ],
+                "operationId": "twin_getInRange",
+                "consumes": [
+                    "application/json",
+                    "text/json"
+                ],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {}
+                },
+                "deprecated": false
+            }
+        },
         "/twin/{twin_id}":{
             "put": {
                 "tags": [
@@ -122,6 +121,13 @@
                     "text/json"
                 ],
                 "parameters": [
+                    {
+                        "name": "twin_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    },
                     {
                         "name": "body",
                         "in": "body",
@@ -150,6 +156,15 @@
                 "description": "Deletes the digital twin with the given id",
                 "operationId": "twin_delete",
                 "consumes": [],
+                "parameters" : [
+                    {
+                        "name": "twin_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
                 "produces": [
                     "application/json",
                     "text/json"

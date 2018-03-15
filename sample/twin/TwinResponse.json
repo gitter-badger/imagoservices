@@ -11,7 +11,8 @@
   "state" : "Hesse",
 
   "availableSensorFields" : [
-    "rainfallProbability",
+    {"id": "xcx", "type":"rainfallProbility", "current":"23%"},
+    {"id": "xcx", "type":"temperature"},
     "temperature",
     "cropType",
     "humidity",
