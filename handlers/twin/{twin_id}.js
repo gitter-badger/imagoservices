@@ -29,6 +29,15 @@ module.exports = {
             // error
             res.status(500).send(error);
         });
+    }, get: function twin_retrieve(req, res, next) {
+        log.debug('Retrieving the twin with id: ' , req.params.twin_id);
+        let status = 200;
+        db.retrieveTwin(req.params.twin_id, req.body).then(function (result) {
+            res.status(status).send(result);
+        }).catch(function (error) {
+            // error
+            res.status(500).send(error);
+        });
     }
 };
  
